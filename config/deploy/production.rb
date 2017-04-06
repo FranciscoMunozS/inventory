@@ -23,7 +23,16 @@ server '45.55.130.200', user: 'deploy', roles: %w{app db web}
 # role :web, %w{user1@primary.com user2@additional.com}, other_property: :other_value
 # role :db,  %w{deploy@example.com}
 
-
+config.action_mailer.default_url_options = { :host => '45.55.130.200' }
+ config.action_mailer.delivery_method = :smtp
+ config.action_mailer.smtp_settings = {
+   address: "smtp.gmail.com",
+   port: 587,
+   authentication: "plain",
+   enable_starttls_auto: true,
+   user_name: 'railstestmailapp@gmail.com',
+   password: 'ScavengerDeath0709'
+ }
 
 # Configuration
 # =============
