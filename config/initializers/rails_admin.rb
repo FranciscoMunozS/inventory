@@ -58,6 +58,34 @@ RailsAdmin.config do |config|
       field :phone do
         label "Anexo telefonico"
       end
+      field :computer do
+        label "Equipo asignado"
+      end
+    end
+  end
+  config.model 'Worker' do
+    show do
+      field :name do
+        label "Nombre"
+      end
+      field :charge do
+        label "Cargo"
+      end
+      field :unity do
+        label "Unidad"
+      end
+      field :division do
+        label "División"
+      end
+      field :email do
+        label "Correo electronico"
+      end
+      field :phone do
+        label "Anexo telefonico"
+      end
+      field :computer do
+        label "Equipo asignado"
+      end
     end
   end
   config.model 'Worker' do
@@ -79,6 +107,9 @@ RailsAdmin.config do |config|
       end
       field :phone do
         label "Anexo telefonico"
+      end
+      field :computer do
+        label "Equipo asignado"
       end
     end
   end
@@ -102,6 +133,9 @@ RailsAdmin.config do |config|
       field :phone do
         label "Anexo telefonico"
       end
+      field :computer do
+        label "Equipo asignado"
+      end
     end
   end
   config.model 'Worker' do
@@ -123,13 +157,19 @@ RailsAdmin.config do |config|
       end
       field :phone do
         label "Anexo telefonico"
+      end
+      field :computer do
+        label "Equipo asignado"
       end
     end
   end
 
   config.model 'Computer' do
     list do
-      field :brand do
+      field :worker do
+        label "Asignado a"
+      end
+      field :name do
         label "Marca"
       end
       field :model do
@@ -148,7 +188,26 @@ RailsAdmin.config do |config|
   end
   config.model 'Computer' do
     edit do
-      field :brand do
+      field :name do
+        label "Marca"
+      end
+      field :model do
+        label "Modelo"
+      end
+      field :serial do
+        label "Numero de serie"
+      end
+      field :address do
+        label "Dirección IP"
+      end
+      field :description do
+        label "Observación"
+      end
+    end
+  end
+  config.model 'Computer' do
+    show do
+      field :name do
         label "Marca"
       end
       field :model do
@@ -167,7 +226,7 @@ RailsAdmin.config do |config|
   end
   config.model 'Computer' do
     create do
-      field :brand do
+      field :name do
         label "Marca"
       end
       field :model do
@@ -186,7 +245,7 @@ RailsAdmin.config do |config|
   end
   config.model 'Computer' do
     export do
-      field :brand do
+      field :name do
         label "Marca"
       end
       field :model do
@@ -205,6 +264,13 @@ RailsAdmin.config do |config|
   end
   config.model 'User' do
     list do
+      field :email do
+        label "Correo electronico"
+      end
+    end
+  end
+  config.model 'User' do
+    show do
       field :email do
         label "Correo electronico"
       end
