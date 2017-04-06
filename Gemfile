@@ -27,6 +27,13 @@ gem 'simple_form'
 gem 'devise'
 
 gem 'bootstrap-sass'
+
+group :development do
+  gem 'capistrano'
+  gem 'capistrano-rails'
+  gem 'capistrano-passenger'
+  gem 'capistrano-rbenv'
+end
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
