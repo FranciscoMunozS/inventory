@@ -30,6 +30,8 @@ gem 'bootstrap-sass'
 
 gem 'rails_admin_material_theme', '~> 0.2.0'
 
+gem 'capistrano-rails-collection'
+
 group :development do
   gem 'capistrano'
   gem 'capistrano-rails'
