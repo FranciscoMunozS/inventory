@@ -58,24 +58,3 @@ Worker.create(name: 'Carolina Villanueva Atero', charge: 'Secretaria', unity: 'D
 Worker.create(name: 'Francisco Muñoz Sepúlveda', charge: 'Apoyo Administrativo', unity: 'División de Análisis y Control de Gestión', division: 'División de Análisis y Control de Gestión', email: 'fmunoz@goredelosrios.cl', phone: '(63) 2284416')
 
 # Unidad de Subvenciones
-
-Worker.create(name: 'Ángela Rodríguez Rodríguez', charge: 'Encargada Unidad', unity: 'Subvenciones', division: 'División de Análisis y Control de Gestión' , email: 'arodriguez@goredelosrios.cl', phone: '(63) 2284336')
-Worker.create(name: 'Cécil Zúñiga Jiménez', charge:, unity: 'Subvenciones', division: 'División de Análisis y Control de Gestión' , email: 'czuniga@goredelosrios.cl', phone: '(63) 2284384')
-Worker.create(name: 'Estefani Baima Solís', charge:, unity: 'Subvenciones', division: 'División de Análisis y Control de Gestión' , email: 'ebaima@goredelosrios.cl', phone: '(63) 2284356')
-Worker.create(name: 'Cristian Cárdenas Cárdenas', charge:, unity: 'Subvenciones', division: 'División de Análisis y Control de Gestión' , email: 'ccardenas@goredelosrios.cl', phone: '(63) 2284328')
-Worker.create(name: 'Carmen Gloria Vargas Rojas', charge:, unity: 'Subvenciones', division: 'División de Análisis y Control de Gestión' , email: 'cvargas@goredelosrios.cl', phone: '(63) 2284363')
-Worker.create(name: 'Zoila Reyes Sáez', charge:, unity: 'Subvenciones', division: 'División de Análisis y Control de Gestión' , email: 'zreyes@goredelosrios.cl', phone: '(63) 2284375')
-Worker.create(name: 'Lucas Sandoval Farías', charge:, unity: 'Subvenciones', division: 'División de Análisis y Control de Gestión' , email:, phone: )
-Worker.create(name: 'Carlos Baeza Baeza', charge:, unity: 'Subvenciones', division: 'División de Análisis y Control de Gestión' , email:, phone: )
-Worker.create(name:, charge:, unity: 'Subvenciones', division: 'División de Análisis y Control de Gestión' , email:, phone: )
-
-Unidad de Subvenciones
-
-Ángela Rodríguez Rodríguez – Encargada Unidad – (63) 2284336 – arodriguez@goredelosrios.cl
-Cécil Zúñiga Jiménez – Profesional – (63) 2284384 – czuniga@goredelosrios.cl
-Estefani Baima Solís – Profesional – (63) 2284356 – ebaima@goredelosrios.cl
-Cristian Cárdenas Cárdenas – Administrativo – (63) 2284328 – ccardenas@goredelosrios.cl
-Carmen Gloria Vargas Rojas – Administrativa – (63) 2284363 – cvargas@goredelosrios.cl
-Zoila Reyes Sáez – Administrativa Contable – (63) 2284375 – zreyes@goredelosrios.cl
-Lucas Sandoval Farías – Apoyo Administrativo – (63) 2284433 – lsandoval@goredelosrios.cl
-Carlos Baeza Baeza- Asesor Jurídico – (63) 2284313 –  cbaeza@goredelosrios.cl
