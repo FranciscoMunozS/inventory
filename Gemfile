@@ -28,6 +28,8 @@ gem 'devise'
 
 gem 'bootstrap-sass'
 
+gem 'rails_admin_material_theme', '~> 0.2.0'
+
 group :development do
   gem 'capistrano'
   gem 'capistrano-rails'

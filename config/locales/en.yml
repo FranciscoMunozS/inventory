@@ -81,7 +81,7 @@ en:
       successful: "%{name} Satisfactoriamente %{action}"
       error: "%{name} no pudo ser %{action}"
       noaction: "Sin cambios realizados"
-      model_not_found: "EL modelo '%{model}' no pudo ser encontrado"
+      model_not_found: "El modelo '%{model}' no pudo ser encontrado"
       object_not_found: "%{model} con el id, '%{id}', no fue encontrado"
     table_headers:
       model_name: "Nombre del modelo"
@@ -95,8 +95,8 @@ en:
     actions:
       dashboard:
         title: "Sitio administrativo"
-        menu: "Panel"
-        breadcrumb: "Panel"
+        menu: "Dashboard"
+        breadcrumb: "Dashboard"
       index:
         title: "Lista de %{model_label_plural}"
         menu: "Lista"
