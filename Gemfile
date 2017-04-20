@@ -37,6 +37,7 @@ group :development do
   gem 'capistrano-rails'
   gem 'capistrano-passenger'
   gem 'capistrano-rbenv'
+  gem 'capistrano-rake', require: false
 end
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
