@@ -95,21 +95,31 @@ RailsAdmin.config do |config|
   config.model 'Worker' do
     edit do
       field :rut do
+        required true
         label "RUT"
       end
+      field :name do
+        required true
+        label "Nombre"
+      end
       field :charge do
+        help false
         label "Unidad"
       end
       field :unity do
+        help false
         label "Cargo"
       end
       field :division do
+        help false
         label "División"
       end
       field :email do
+        help false
         label "Correo electronico"
       end
       field :observation do
+        help false
         label "Observación"
       end
       field :computer do
@@ -119,7 +129,10 @@ RailsAdmin.config do |config|
   end
   config.model 'Worker' do
     create do
-      exclude_fields :division
+      field :rut do
+        required true
+      end
+      exclude_fields :division, :computer
     end
   end
   config.model 'Worker' do
@@ -151,21 +164,27 @@ RailsAdmin.config do |config|
   config.model 'Computer' do
     list do
       field :worker do
+        required true
         label "Asignado a"
       end
       field :name do
+        required true
         label "Marca"
       end
       field :model do
+        help false
         label "Modelo"
       end
       field :serial do
+        required true
         label "Numero de serie"
       end
       field :address do
+        required true
         label "Dirección IP"
       end
       field :description do
+        help false
         label "Observación"
       end
     end
@@ -173,21 +192,27 @@ RailsAdmin.config do |config|
   config.model 'Computer' do
     edit do
       field :name do
+        required true
         label "Marca"
       end
       field :model do
+        help false
         label "Modelo"
       end
       field :serial do
+        required true
         label "Numero de serie"
       end
       field :address do
+        required true
         label "Dirección IP"
       end
       field :description do
+        help false
         label "Observación"
       end
       field :worker do
+        required true
         label "Asignado a "
       end
     end
@@ -217,21 +242,27 @@ RailsAdmin.config do |config|
   config.model 'Computer' do
     create do
       field :name do
+        required true
         label "Marca"
       end
       field :model do
+        help false
         label "Modelo"
       end
       field :serial do
+        required true
         label "Numero de serie"
       end
       field :address do
+        required true
         label "Dirección IP"
       end
       field :description do
+        help false
         label "Observación"
       end
       field :worker do
+        required true
         label "Asignado a"
       end
     end
