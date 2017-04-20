@@ -119,27 +119,7 @@ RailsAdmin.config do |config|
   end
   config.model 'Worker' do
     create do
-      field :rut do
-        label "RUT"
-      end
-      field :name do
-        label "Nombre"
-      end
-      field :Charge do
-        label "Cargo"
-      end
-      field :unity do
-        label "Unidad"
-      end
-      field :email do
-        label "Correo electronico"
-      end
-      field :Observation do
-        label "Observación"
-      end
-      field :computer do
-        label "Equipo asignado"
-      end
+      exclude_fields :division
     end
   end
   config.model 'Worker' do
