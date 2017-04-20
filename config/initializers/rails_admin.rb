@@ -51,10 +51,10 @@ RailsAdmin.config do |config|
         label "Nombre"
       end
       field :charge do
-        label "Cargo"
+        label "Unidad"
       end
       field :unity do
-        label "Unidad"
+        label "Cargo"
       end
       field :email do
         label "Correo electronico"
@@ -76,10 +76,10 @@ RailsAdmin.config do |config|
         label "Nombre"
       end
       field :charge do
-        label "Cargo"
+        label "Unidad"
       end
       field :unity do
-        label "Unidad"
+        label "Cargo"
       end
       field :email do
         label "Correo electronico"
@@ -98,10 +98,10 @@ RailsAdmin.config do |config|
         label "RUT"
       end
       field :charge do
-        label "Cargo"
+        label "Unidad"
       end
       field :unity do
-        label "Unidad"
+        label "Cargo"
       end
       field :division do
         label "División"
@@ -109,8 +109,8 @@ RailsAdmin.config do |config|
       field :email do
         label "Correo electronico"
       end
-      field :phone do
-        label "Anexo telefonico"
+      field :observation do
+        label "Observación"
       end
       field :computer do
         label "Equipo asignado"
