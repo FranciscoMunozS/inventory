@@ -1,17 +1,17 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
+  rut: MyString
   name: MyString
-  charge: MyString
   unity: MyString
-  division: MyString
+  charge: MyString
   email: MyString
-  phone: MyString
+  observation: MyText
 
 two:
+  rut: MyString
   name: MyString
-  charge: MyString
   unity: MyString
-  division: MyString
+  charge: MyString
   email: MyString
-  phone: MyString
+  observation: MyText

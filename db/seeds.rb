@@ -1,60 +1,131 @@
-# Fomento Productivo e Industrias
-Worker.create(name: 'Edmundo Urra Osses', charge: 'Coordinador Programa' , unity: 'Fomento Productivo e Industrias', division: 'Fomento Productivo e Industrias', email: 'eurra@goredelosrios.cl', phone: '(63) 2284430')
-Worker.create(name: 'Andrés Hernández Sánchez', charge: 'Profesional Programa' , unity: 'Fomento Productivo e Industrias' , division: 'Fomento Productivo e Industrias', email: 'ahernandez@goredelosrios.cl', phone: '(63) 2284432' )
-Worker.create(name: 'Susan Flores Vinnet', charge: 'Profesional Programa', unity: 'Fomento Productivo e Industrias' , division: 'Fomento Productivo e Industrias', email: 'sflores@goredelosrios.cl', phone: '(63) 2284431')
-
-# Programa Fondo Innovación para la Competitividad
-
-Worker.create(name: 'Miguel Martínez Quilapan', charge: 'Asesor Programa FIC', unity: 'Programa Fondo Innovación para la Competitividad', division: 'División de Planificación y Desarrollo', email: 'mmartinez@goredelosrios.cl', phone: '(63) 2284444')
-
-# Gestión para las Zonas Rezagadas
-
-Worker.create(name: 'Karin Ramírez Muñoz', charge: 'Profesional Programa', unity: 'Zonas Rezagadas', division: 'División de Planificación y Desarrollo', email: 'kramirez@goredelosrios.cl', phone: '(63) 2284434')
-Worker.create(name: 'Camilo Diaz Luna', charge: 'Profesional Programa', unity: 'Zonas Rezagadas', division: 'División de Planificación y Desarrollo', email: 'cdiazl@goredelosrios.cl', phone: '(63) 2284434')
-Worker.create(name: 'Gerardo Torres Toledo', charge: 'Profesional Programa', unity: 'Zonas Rezagadas', division: 'División de Planificación y Desarrollo', email: 'gtorres@goredelosrios.cl', phone: '(63) 2284434')
-Worker.create(name: 'Ricardo Yañez Pereda', charge: 'Profesional Programa', unity: 'Zonas Rezagadas', division: 'División de Planificación y Desarrollo', email: 'ryanez@goredelosrios.cl', phone: '(63) 2284434')
-
-# Consejo Regional de Los Ríos (Secretaría Ejecutiva)
-
-Worker.create(name: 'Ivan Madariaga Sierra', charge: 'Secretario Ejecutivo', unity: 'Consejo Regional', division: 'Consejo Regional', email: 'imadariaga@goredelosrios.cl', phone: '(63) 2284031 – 2284418')
-Worker.create(name: 'Fernando Pichaud Sanhueza', charge: 'Asesor Consejo Regional', unity: 'Consejo Regional', division: 'Consejo Regional', email: 'fpichaud@goredelosrios.cl', phone: '(63) 2284200 – 2284420')
-Worker.create(name: 'Armando Ortega Chiguay', charge: 'Administrativo Consejo Regional', unity: 'Consejo Regional', division: 'Consejo Regional', email: 'aortega@goredelosrios.cl', phone: '(63) 2284381')
-Worker.create(name: 'Yenny Mendez Romero', charge: 'Profesional Consejo Regional', unity: 'Consejo Regional', division: 'Consejo Regional', email: 'ymendez@goredelosrios.cl', phone: '(63) 2284029 –2284419')
-Worker.create(name: 'Claudia Vallefin Carvallo', charge: 'Administrativa Consejo Regional', unity: 'Consejo Regional', division: 'Consejo Regional', email: 'cvallefin@goredelosrios.cl', phone: '(63)2284393')
-Worker.create(name: 'Andrea Ramírez Parra', charge: 'Periodista Consejo Regional', unity: 'Consejo Regional', division: 'Consejo Regional', email: 'aramirez@goredelosrios.cl', phone: '(63) 2284206– 2284423')
-Worker.create(name: 'Jessica Azócar Fontealba', charge: 'Digitadora Consejo Regional', unity: 'Consejo Regional', division: 'Consejo Regional', email: '-', phone: '(63) 2284029')
-Worker.create(name: 'José Meza Meza', charge: 'Recepcionista Sede del Consejo', unity: 'Consejo Regional', division: 'Consejo Regional', email: 'jmeza@goredelosrios.cl', phone: '(63) 2284442')
-
-# Departamento Jurídico
-
-Worker.create(name: 'Paola Hermosilla Bucarey', charge: 'Encargada del Departamento Jurídico', unity: 'Departamento Jurídico', division: 'Departamento Jurídico', email: 'phermosilla@goredelosrios.cl', phone: '(63) 2284352')
-Worker.create(name: 'Camila Matus Zúñiga', charge: 'Abogada', unity: 'Departamento Jurídico', division: 'Departamento Jurídico', email: 'cmatus@goredelosrios.cl', phone: '(63) 2284309')
-Worker.create(name: 'Javier Hernández Sepúlveda', charge: 'Abogado', unity: 'Departamento Jurídico', division: 'Departamento Jurídico', email: 'jhernandez@goredelosrios.cl', phone: '(63) 2284315')
-Worker.create(name: 'Cecilia Álamos Parra', charge: 'Secretaria', unity: 'Departamento Jurídico', division: 'Departamento Jurídico', email: 'calamos@goredelosrios.cl', phone: '(63) 2284388')
-
-# Unidad de Auditoría Interna
-
-Worker.create(name: 'Marcelo Romero Contreras', charge: 'Profesional Auditoría Interna', unity: 'Unidad de Auditoría Interna', division: 'Auditoría Interna', email: 'mromero@goredelosrios.cl', phone: '(63) 2284365')
-
-# Unidad de Gestión Estratégica Institucional
-
-Worker.create(name: 'Rodrigo Aravena Bustamante', charge: 'Encargado Unidad', unity: 'Gestión Estratégica Institucional', division: 'Gestión Estratégica Institucional', email: 'raravena@goredelosrios.cl', phone: '(63) 2284327')
-Worker.create(name: 'Christian Mansilla Cuevas', charge: 'Profesional Prevención', unity: 'Gestión Estratégica Institucional', division: 'Gestión Estratégica Institucional', email: 'cmansilla@goredelosrios.cl', phone: '-')
-
-# Organizaciones Sociales
-
-Worker.create(name: 'Jorge Hernández Carmona', charge: 'Profesional', unity: 'Organizaciones Sociales', division: 'Gabinete', email: 'jhernandezc@goredelosrios.cl', phone: '(63) 2284367')
-Worker.create(name: 'Juan Rocha Aguilera', charge: 'Profesional', unity: 'Organizaciones Sociales', division: 'Gabinete', email: 'jrocha@goredelosrios.cl', phone: '(63) 2284417')
-Worker.create(name: 'Gladys Jaramillo Cáceres', charge: 'Administrativo', unity: 'Organizaciones Sociales', division: 'Gabinete', email: 'gjaramillo@goredelosrios.cl', phone: '(63) 2284339')
-Worker.create(name: 'Alejandro Kohler Vargas', charge: 'Administrativo', unity: 'Organizaciones Sociales', division: 'Gabinete', email: 'akohler@goredelosrios.cl', phone: '(63) 2283882')
-Worker.create(name: 'Marco Mattar Silva', charge: 'Administrativo', unity: 'Organizaciones Sociales', division: 'Gabinete', email: 'mmattar@goredelosrios.cl', phone: '(63) 2283886')
-Worker.create(name: 'Marcelo Medina Cárdenas', charge: 'Administrativo', unity: 'Organizaciones Sociales', division: 'Gabinete', email: 'mmedina@goredelosrios.cl', phone: '(63) 2284397')
-Worker.create(name: 'Victor Torrejon Barahona', charge: '', unity: 'Organizaciones Sociales', division: 'Gabinete', email: 'vtorrejon@goredelosrios.cl', phone: '(63) 2284411')
-
-# DIVISIÓN DE ANÁLISIS Y CONTROL DE GESTIÓN
-
-Worker.create(name: 'Lorena Kiessling Salas', charge: 'Jefe de División de Análisis y Control de Gestión', unity: 'División de Análisis y Control de Gestión', division: 'División de Análisis y Control de Gestión', email: 'lkiessling@goredelosrios.cl', phone: '(63) 2284343')
-Worker.create(name: 'Carolina Villanueva Atero', charge: 'Secretaria', unity: 'División de Análisis y Control de Gestión', division: 'División de Análisis y Control de Gestión', email: 'cvillanueva@goredelosrios.cl', phone: '(63) 2284308')
-Worker.create(name: 'Francisco Muñoz Sepúlveda', charge: 'Apoyo Administrativo', unity: 'División de Análisis y Control de Gestión', division: 'División de Análisis y Control de Gestión', email: 'fmunoz@goredelosrios.cl', phone: '(63) 2284416')
-
-# Unidad de Subvenciones
+Worker.create!([
+  {rut: "116324229", name: "RICARDO MARCELO MILLAN GUTIERREZ", unity: nil, charge: "INTENDENTE", email: "RMILLAN@GOREDELOSRIOS.CL", observation: nil},
+  {rut: "140815667", name: "LEONARDO JUAN FAÚNDEZ MARTÍNEZ", unity: "JEFE DIVISIÓN PLANIFICACIÓN Y DESARROLLO REGIONAL", charge: "DIVISIóN DE PLANIFICACIóN Y DESARROLLO REGIONAL", email: "lfaundez@goredelosrios.cl", observation: nil},
+  {rut: "142818299", name: "PEDRO GACITUA GALLARDO", unity: "JEFE DIVISIÓN ADMINISTRACIÓN Y FINANZAS", charge: "DIVISIóN DE ADMINISTRACIóN Y FINANZAS", email: "pgacitua@goredelosrios.cl", observation: nil},
+  {rut: "93469860", name: "HECTOR ALEJANDRO GALLARDO VIDAL", unity: "SECTORIALISTA ", charge: "DEPARTAMENTO DE GESTIóN E INVERSIONES", email: "agallardo@goredelosrios.cl", observation: nil},
+  {rut: "80244312", name: "JUAN CARLOS CASTILLO AVILA", unity: "ANALISTA DE INVERSIONES", charge: "DEPARTAMENTO DE GESTIóN E INVERSIONES", email: "jcastillo@goredelosrios.cl", observation: nil},
+  {rut: "93936035", name: "FERNANDO EDUARDO PICHAUD SANHUEZA", unity: "ASESOR CONSEJO REGIONAL", charge: "SECRETARíA EJECUTIVA CONSEJO REGIONAL", email: "fpichaud@goredelosrios.cl", observation: nil},
+  {rut: "129942029", name: "RODRIGO GONZALO ARAVENA BUSTAMANTE", unity: "ENCARGADO UNIDAD DE CONTROL ESTRATÉGICO INSTITUCIONAL", charge: "UNIDAD DE GESTIóN ESTRATéGICA INSTITUCIONAL", email: "raravena@goredelosrios.cl", observation: nil},
+  {rut: "81227667", name: "SERGIO ALFREDO VILLAVICENCIO RIQUELME", unity: "PROGRAMADOR FNDR", charge: "DEPARTAMENTO DE PRESUPUESTO", email: "svillavicencio@goredelosrios.cl", observation: nil},
+  {rut: "89046505", name: "MAURICIO FABIAN PEÑA VERA", unity: "PROFESIONAL EN PLANIFICACIÓN TERRITORIAL", charge: "UNIDAD DE ORDENAMIENTO Y GESTIóN TERRITORIAL", email: "mpena@goredelosrios.cl", observation: nil},
+  {rut: "74655734", name: "ARMIN RODRIGO FERNANDEZ MARDONES", unity: "SECTORIALISTA DE INVERSIONES", charge: "DEPARTAMENTO DE GESTIóN E INVERSIONES", email: "afernandez@goredelosrios.cl", observation: nil},
+  {rut: "118091922", name: "MARCELO ALEJANDRO ROMERO CONTRERAS", unity: "PROFESIONAL DE LA UNIDAD DE AUDITORÍA INTERNA", charge: "UNIDAD DE AUDITORIA INTERNA", email: "mromero@goredelosrios.cl", observation: nil},
+  {rut: "144947401", name: "VICTOR FRANCISCO ALVAREZ CULUN", unity: "UNIDAD FRIL", charge: "UNIDAD FRIL", email: "valvarez@goredelosrios.cl", observation: nil},
+  {rut: "140810592", name: "JUAN DANIEL TEJEDA PEREZ", unity: "ADMINISTRATIVO SAIP- OFICINA DE PARTES", charge: "OFICINA DE PARTES", email: "jtejeda@goredelosrios.cl", observation: nil},
+  {rut: "70305127", name: "JORGE AUGUSTO AGUILA SEPULVEDA", unity: "ADMINISTRATIVO GABINETE", charge: "INTENDENTE", email: "jaguila@goredelosrios.cl", observation: nil},
+  {rut: "103679435", name: "PATRICIA MORANO BÜCHNER", unity: "INTENDENTE", charge: "INTENDENTE", email: nil, observation: nil},
+  {rut: "140842516", name: "YEISSE LORENA KIESSLING SALAS", unity: "JEFE DIVISIÓN DE ANÁLISIS Y CONTROL DE GESTIÓN ", charge: "DIVISIóN DE ANáLISIS Y CONTROL DE GESTIóN", email: "lkiessling@goredelosrios.cl", observation: nil},
+  {rut: "10872160K", name: "PAOLA MARCELA HERMOSILLA BUCAREY", unity: "ENCARGADA DEPARTAMENTO JURÍDICO", charge: "DEPARTAMENTO JURíDICO", email: "phermosilla@goredelosrios.cl", observation: nil},
+  {rut: "107096531", name: "CECILIA CAMILA QUINTANA BINIMELIS", unity: "ENCARGADA DEPARTAMENTO DE PLANIFICACIÓN ESTRATÉGICA", charge: "DEPARTAMENTO DE PLANIFICACIóN ESTRATéGICA", email: "cquintana@goredelosrios.cl", observation: nil},
+  {rut: "138180980", name: "YESSICA ANDREA GUTIERREZ RODRIGUEZ", unity: "PROFESIONAL ", charge: "DEPARTAMENTO DE FINANZAS", email: "ygutierrez@goredelosrios.cl", observation: nil},
+  {rut: "117028968", name: "ANGELICA BEATRIZ PARRA SOLIS", unity: "ENCARGADA UNIDAD DE FOMENTO PRODUCTIVO Y DESARROLLO TECNOLÓGICO ", charge: "DIVISIóN DE PLANIFICACIóN Y DESARROLLO REGIONAL", email: "aparra@goredelosrios.cl", observation: nil},
+  {rut: "127467862", name: "CAMILA FERNANDA MATUS ZUNIGA", unity: "ABOGADO DEPARTAMENTO JURIDICO", charge: "DEPARTAMENTO JURíDICO", email: "cmatus@goredelosrios.cl", observation: nil},
+  {rut: "127129851", name: "MARIA SOLANGE PALAVECINO MEDINA", unity: "SECTORIALISTA ", charge: "DEPARTAMENTO DE GESTIóN E INVERSIONES", email: "mpalavecino@goredelosrios.cl", observation: nil},
+  {rut: "96555970", name: "JUANA NELIDA SCHNEIDER GATICA", unity: "UNIDAD FRIL", charge: "UNIDAD FRIL", email: "jschneider@goredelosrios.cl", observation: nil},
+  {rut: "114094757", name: "ERWIN HERNÁN ROSAS ALARCON", unity: "ADMINISTRADOR REGIONAL", charge: "GABINETE Y COMUNICACIóN", email: "erosas@goredelosrios.cl", observation: nil},
+  {rut: "53364616", name: "RODOLFO ALBERTO PEÑA ZORICH", unity: "ANALISTA DE INVERSIONES", charge: "DEPARTAMENTO DE GESTIóN E INVERSIONES", email: "rpena@goredelosrios.cl", observation: nil},
+  {rut: "93347501", name: "CESAR JOSE PEREZ SEPULVEDA", unity: "ENCARGADO DEPARTAMENTO DE FINANZAS", charge: "DEPARTAMENTO DE FINANZAS", email: "cperez@goredelosrios.cl", observation: nil},
+  {rut: "119696178", name: "JORGE LUIS BALBOA TORO", unity: "ENCARGADO DEPARTAMENTO DE DESARROLLO ECONÓMICO-SOCIAL", charge: "DEPARTAMENTO DE DESARROLLO ECONóMICO Y SOCIAL", email: "jbalboa@goredelosrios.cl", observation: nil},
+  {rut: "131120664", name: "JOEL ANTONIO DURÁN TROPPA", unity: "ENCARGADO DE UNIDAD DE FONDOS REGIONALES DE INVERSIÓN LOCAL", charge: "UNIDAD FRIL", email: "jduran@goredelosrios.cl", observation: nil},
+  {rut: "126445199", name: "MAURICIO ALEJANDRO JELVES PEREZ", unity: "ENCARGADO DE LA UNIDAD DE ANÁLISIS Y COORDINACIÓN DE LA INVERSIÓN REGIONAL", charge: "UNIDAD DE ANáLISIS Y COORDINACIóN DE INVERSIóN REGIONAL", email: "mjelves@goredelosrios.cl", observation: nil},
+  {rut: "130856101", name: "LUIS PATRICIO ACUM SALINAS", unity: "ENCARGADO UNIDAD DE INFORMATICA", charge: "UNIDAD DE INFORMáTICA", email: "pacum@goredelosrios.cl", observation: nil},
+  {rut: "123732693", name: "CESAR ALBERTO ACUÑA LEAL", unity: "PROFESIONAL ANALISTA DE SISTEMAS DE INFORMACIÓN TERRITORIAL GEOGRÁFICO", charge: "DIVISIóN DE PLANIFICACIóN Y DESARROLLO REGIONAL", email: "cacuna@goredelosrios.cl", observation: nil},
+  {rut: "55858810", name: "RODRIGO CARLOS BÄHRE VOGEL", unity: "ENCARGADO UNIDAD REGIONAL DE ASUNTOS INTERNACIONALES", charge: "UNIDAD REGIONAL DE ASUNTOS INTERNACIONALES", email: "rbahre@goredelosrios.cl", observation: nil},
+  {rut: "127468559", name: "MARCO ANTONIO CASAS PACHECO", unity: "ANALISTA DE INVERSION", charge: "DEPARTAMENTO DE GESTIóN E INVERSIONES", email: "mcasas@goredelosrios.cl", observation: nil},
+  {rut: "137100339", name: "PATRICIO FABIAN ROMERO PEÑA", unity: "ENCARGADO UNIDAD DE GESTIÓN INFORMACIÓN TERRITORIAL (UGIT)", charge: "UNIDAD DE GESTIóN DE INFORMACIóN TERRITORIAL", email: "promero@goredelosrios.cl", observation: nil},
+  {rut: "58840734", name: "VICTOR HUGO VELASQUEZ VALENZUELA", unity: "PROFESIONAL DEPTO. FINANZAS", charge: "DEPARTAMENTO DE FINANZAS", email: "vvelasquez@goredelosrios.cl", observation: nil},
+  {rut: "41193786", name: "CECIL DELFIN ZUÑIGA JIMENEZ", unity: "MIEMBRO DEL COMITE DE HIGIENE Y SEGURIDAD", charge: "UNIDAD DE SUBVENCIONES", email: "czuniga@goredelosrios.cl", observation: nil},
+  {rut: "167901379", name: "NICOLÁS ANDRÉS GUIÑEZ LÓPEZ", unity: "UNIDAD DE ORDENAMIENTO TERRITORIAL", charge: "DIVISIóN DE PLANIFICACIóN Y DESARROLLO REGIONAL", email: "nguinez@goredelosrios.cl", observation: nil},
+  {rut: "152614993", name: "ALVARO GONZALO SARAVIA SARAVIA", unity: "PROFESIONAL UNIDAD DE ADQUISICIONES", charge: "UNIDAD DE ADQUISICIONES", email: "asaravia@goredelosrios.cl", observation: nil},
+  {rut: "165636899", name: "CARLOS MARCIAL BAEZA BAEZA", unity: "ASESOR JURÍDICO EN DEPORTE Y CULTURA", charge: "UNIDAD DE SUBVENCIONES", email: "CARLOSBAEZABAEZA@GMAIL.COM", observation: nil},
+  {rut: "155489588", name: "JAVIER ALEJANDRO HERNÁNDEZ  SEPÚLVEDA", unity: "ABOGADO DEPARTAMENTO JURIDICO", charge: "DEPARTAMENTO JURíDICO", email: "jhernandez@goredelosrios.cl", observation: nil},
+  {rut: "129946768", name: "JOSE PATRICIO RIQUELME ROSAS", unity: "PROFESIONAL DEPARTAMENTO FINANZAS", charge: "DEPARTAMENTO DE FINANZAS", email: "jriquelme@goredelosrios.cl", observation: nil},
+  {rut: "143461114", name: "FELIPE ANDRÉS SCHULTZ OYARZÚN", unity: "PROFESIONAL RESIDUOS SÓLIDOS", charge: "PROGRAMA RESIDUOS SóLIDOS", email: "faschultz@goredelosrios.cl", observation: nil},
+  {rut: "127478244", name: "JUAN PATRICIO CABRERA SOLIS", unity: "ASESOR INFORMATICA", charge: "UNIDAD DE INFORMáTICA", email: "pcabrera@goredelosrios.cl", observation: nil},
+  {rut: "144615476", name: "CHRISTIAN MARCELO BURGOS AMOYADO", unity: "TESORERO PROGRAMA 01", charge: "DEPARTAMENTO DE FINANZAS", email: "cburgos@goredelosrios.cl", observation: nil},
+  {rut: "79485381", name: "ADOLFO GABRIEL PARDO SOTO", unity: "ADMINISTRATIVO SAIP- OFICINA DE PARTES", charge: "OFICINA DE PARTES", email: "apardo@goredelosrios.cl", observation: nil},
+  {rut: "152922159", name: "ARMANDO JOHAN ORTEGA CHIGUAY", unity: "ADMINISTRATIVO SECRETARÍA EJECUTIVA DEL CONSEJO REGIONAL", charge: "SECRETARíA EJECUTIVA CONSEJO REGIONAL", email: "aortega@goredelosrios.cl", observation: nil},
+  {rut: "155479124", name: "JOSE RAMON SEGOVIA RUIZ", unity: "ENCARGADO DE INVENTARIO Y APOYO ADM. UNIDAD DE SS. GENERALES", charge: "UNIDAD DE SERVICIOS GENERALES", email: "jsegovia@goredelosrios.cl", observation: nil},
+  {rut: "14516432K", name: "ERIC WALDO VIDAL PEREZ", unity: "ADMINISTRATIVO", charge: "UNIDAD DE SERVICIOS GENERALES", email: "evidal@goredelosrios.cl", observation: nil},
+  {rut: "74210791", name: "RICARDO HERNAN BASSO BAHAMONDES", unity: "CONDUCTOR", charge: "CONDUCTORES", email: "rbasso@goredelosrios.cl", observation: nil},
+  {rut: "114253804", name: "MARCELO EDUARDO CRISOSTOMO FUENTES", unity: "CONDUCTOR", charge: "CONDUCTORES", email: "mcrisostomo@goredelosrios.cl", observation: nil},
+  {rut: "103895421", name: "JUAN CARLOS MONTECINOS VITO", unity: "ADMINISTRATIVO DIVISIóN ADMINISTRACIóN Y FINANZAS", charge: "UNIDAD DE SERVICIOS GENERALES", email: "jmontecinos@goredelosrios.cl", observation: nil},
+  {rut: "105073879", name: "CLAUDIO ALBERTO REYES VARGAS", unity: "CONDUCTOR", charge: "CONDUCTORES", email: "creyes@goredelosrios.cl", observation: nil},
+  {rut: "142808145", name: "WALDEMAR ANDRES REYES MADRID", unity: "ADMINISTRATIVO", charge: "UNIDAD DE SERVICIOS GENERALES", email: "wreyes@goredelosrios.cl", observation: nil},
+  {rut: "111153477", name: "KARIM LISSETTE BERTIN GUARDA", unity: "ANALISTA DE INVERSIONES", charge: "DEPARTAMENTO DE GESTIóN E INVERSIONES", email: "kbertin@goredelosrios.cl", observation: nil},
+  {rut: "8653178K", name: "EDITH HAYDEE MONARDEZ BALCAZAR", unity: "ANALISTA DE INVERSIONES", charge: "DEPARTAMENTO DE GESTIóN E INVERSIONES", email: "emonardez@goredelosrios.cl", observation: nil},
+  {rut: "138178978", name: "MARILA LORETO BARRIENTOS TRIVIÑOS", unity: "PROFESIONAL DE APOYO A MUNICIPIOS Y PREINVERSION", charge: "UNIDAD DE ANáLISIS Y COORDINACIóN DE INVERSIóN REGIONAL", email: "mbarrientos@goredelosrios.cl", observation: nil},
+  {rut: "139059573", name: "MARJOLAINE CELIS LINNEBRINK", unity: "ANALISTA DE INVERSIONES", charge: "DEPARTAMENTO DE GESTIóN E INVERSIONES", email: "mcelis@goredelosrios.cl", observation: nil},
+  {rut: "140816280", name: "LILIAN EUGENIA CERDA SOTO", unity: "ENCARGADA DEPTO. DE PERSONAL", charge: "DEPARTAMENTO DE PERSONAL", email: "lcerda@goredelosrios.cl", observation: nil},
+  {rut: "133235000", name: "SANDRA ELIZABETH MARLENE MANSILLA TORRES", unity: "ANALISTA DE INVERSIONES", charge: "DEPARTAMENTO DE GESTIóN E INVERSIONES", email: "smansilla@goredelosrios.cl", observation: nil},
+  {rut: "217300169", name: "VALENTINA MARISOL MEDIAVILLA PINEDA", unity: "MIEMBRO DEL COMITÉ PARITARIO DE HIGIENE Y SEGURIDAD ", charge: "DIVISIóN DE PLANIFICACIóN Y DESARROLLO REGIONAL", email: "vmediavilla@goredelosrios.cl", observation: nil},
+  {rut: "99118741", name: "ELISA GABRIELA SOTO IDE", unity: "PROFESIONAL DE APOYO A MUNICIPIOS Y PREINVERSION", charge: "UNIDAD DE ANáLISIS Y COORDINACIóN DE INVERSIóN REGIONAL", email: "esoto@goredelosrios.cl", observation: nil},
+  {rut: "134533447", name: "XIMENA VANESSA SUAREZ ORTEGA", unity: "ANALISTA DE INVERSIONES", charge: "DEPARTAMENTO DE GESTIóN E INVERSIONES", email: "xsuarez@goredelosrios.cl", observation: nil},
+  {rut: "130610048", name: "CECILIA DEL CARMEN CANDIA MANSILLA", unity: "ENCARGADO DE SERVICIOS GENERALES", charge: "UNIDAD DE SERVICIOS GENERALES", email: "ccandia@goredelosrios.cl", observation: nil},
+  {rut: "127480109", name: "CLAUDIA XIMENA JARA RIVAS", unity: "PROFESIONAL ENGARGADA PROGRAMA 02", charge: "DEPARTAMENTO DE FINANZAS", email: "cjara@goredelosrios.cl", observation: nil},
+  {rut: "124307147", name: "ERNA VIVIANA RIVAS LOVERA", unity: "ENCARGADA UNIDAD DE ADQUISICIONES", charge: "UNIDAD DE ADQUISICIONES", email: "vrivas@goredelosrios.cl", observation: nil},
+  {rut: "135200174", name: "ANGELA MAGDALENA RODRÍGUEZ RODRÍGUEZ", unity: "ENCARGADA UNIDAD DE SUBVENCIONES", charge: "UNIDAD DE SUBVENCIONES", email: "arodriguez@goredelosrios.cl", observation: nil},
+  {rut: "137375826", name: "ALEJANDRA ISABEL MOLL PAILLACAR", unity: "APOYO PROGRAMADOR FNDR", charge: "DEPARTAMENTO DE PRESUPUESTO", email: "amoll@goredelosrios.cl", observation: nil},
+  {rut: "93167899", name: "XIMENA CAROLINA CARO MUÑOZ", unity: "ANALISTA DE INVERSIÓN", charge: "DIVISIóN DE ANáLISIS Y CONTROL DE GESTIóN", email: "xcaro@goredelosrios.cl", observation: nil},
+  {rut: "136271857", name: "PATRICIA ALEJANDRA DURAN SEPULVEDA", unity: "PROFESIONAL PROGRAMA PUESTA EN VALOR DEL PATRIMONIO", charge: "PROGRAMA DE PUESTA EN VALOR DEL PATRIMONIO", email: "pduran@goredelosrios.cl", observation: nil},
+  {rut: "127475857", name: "VERONICA ALEJANDRA HENRIQUEZ DELGADO", unity: "PROFESIONAL DEPARTAMENTO DE PERSONAL", charge: "DEPARTAMENTO DE PERSONAL", email: "vhenriquez@goredelosrios.cl", observation: nil},
+  {rut: "123901150", name: "SANDRA ADELINA PEREZ GUZMAN", unity: "PROFESIONAL UNIDAD INFORMATICA", charge: "UNIDAD DE INFORMáTICA", email: "sperez@goredelosrios.cl", observation: nil},
+  {rut: "122013782", name: "INGRID BEATRIZ TORRES FARIAS", unity: "PROFESIONAL DEPTO. DE PERSONAL", charge: "DEPARTAMENTO DE PERSONAL", email: "itorres@goredelosrios.cl", observation: nil},
+  {rut: "165645545", name: "ESTEFANI MARION BAIMA SOLIS", unity: "UNIDAD DE SUBVENCIONES", charge: "UNIDAD DE SUBVENCIONES", email: "ebaima@goredelosrios.cl", observation: nil},
+  {rut: "133192093", name: "YENNY PAOLA MENDEZ ROMERO", unity: "SECRETARIA SECRETARÍA EJECUTIVA DEL CONSEJO REGIONAL", charge: "SECRETARíA EJECUTIVA CONSEJO REGIONAL", email: "ymendez@goredelosrios.cl", observation: nil},
+  {rut: "172010504", name: "ANDREA PAZ RAMIREZ PARRA", unity: "PERIODISTA GABINETE Y CONSEJO REGIONAL", charge: "SECRETARíA EJECUTIVA CONSEJO REGIONAL", email: "aramirez@goredelosrios.cl", observation: nil},
+  {rut: "127490732", name: "TAMARA ANGELICA ARAYA GARAY", unity: "DISEÑADOR GRÁFICO Y PUBLICITARIO", charge: "UNIDAD DE INFORMáTICA", email: "taraya@goredelosrios.cl", observation: nil},
+  {rut: "13283038k", name: "SILVIA CAROLINA MARTÍNEZ MONTOYA", unity: "ADMINISTRATIVO UNIDAD DE ADQUISICIONES", charge: "UNIDAD DE ADQUISICIONES", email: "smartinez@goredelosrios.cl", observation: nil},
+  {rut: "165639138", name: "ZOILA MAURA REYES SAEZ", unity: "SECRETARIA UNIDAD DE CULTURA", charge: "UNIDAD DE SUBVENCIONES", email: "zreyes@goredelosrios.cl", observation: nil},
+  {rut: "74789544", name: "PATRICIA HELIA ZAPATA CANCINO", unity: "ADMINISTRATIVA UNIDAD FRIL", charge: "UNIDAD FRIL", email: "pzapata@goredelosrios.cl", observation: nil},
+  {rut: "7498004K", name: "CLARA ROSA CARCAMO HERMOSILLA", unity: "ADMINISTRATIVO", charge: "DIVISIóN DE PLANIFICACIóN Y DESARROLLO REGIONAL", email: " DIVISIÓN DE PLANIFICACIÓN Y DESARROLLO REGIONAL", observation: "rcarcamo@goredelosrios.cl"},
+  {rut: "138470261", name: "ANA PATRICIA JARA MARTINEZ", unity: "SECRETARIA JEFE DIVISIÓN DE PLANIFICACIÓN Y DESARROLLO REGIONAL", charge: "DIVISIóN DE PLANIFICACIóN Y DESARROLLO REGIONAL", email: "ajara@goredelosrios.cl", observation: nil},
+  {rut: "107980458", name: "RINA VIRGINIA RIVERA SALAZAR", unity: "SECRETARIA JEFE DAF", charge: "DIVISIóN DE ADMINISTRACIóN Y FINANZAS", email: "rrivera@goredelosrios.cl", observation: nil},
+  {rut: "124808715", name: "CARMEN GLORIA VARGAS ROJAS", unity: "ADMINISTRATIVA UNIDAD DE DEPORTES", charge: "UNIDAD DE SUBVENCIONES", email: "cvargas@goredelosrios.cl", observation: nil},
+  {rut: "152932162", name: "CAROLINA VIOLETA VILLANUEVA ATERO", unity: "SECRETARIA DIVISIÓN ANALISIS", charge: "DIVISIóN DE ANáLISIS Y CONTROL DE GESTIóN", email: "cvillanueva@goredelosrios.cl", observation: nil},
+  {rut: "74688314", name: "GUISELA SILVANA GAH CARILEO", unity: "PARTICIPACIÓN CIUDADANA", charge: "UNIDAD DE PARTICIPACIóN CIUDADANA", email: "GGAH@GOREDELOSRIOS.CL", observation: nil},
+  {rut: "171250668", name: "CRISTOBAL PATRICIO SANDOVAL AGUERO", unity: "ENCARGADO UNIDAD DE PARTICIPACIÓN CIUDADANA", charge: "UNIDAD DE PARTICIPACIóN CIUDADANA", email: "csandoval@goredelosrios.cl", observation: nil},
+  {rut: "73967775", name: "JUAN CARLOS FLANDEZ VELASQUEZ", unity: "RECEPCIONISTA ", charge: "UNIDAD DE SERVICIOS GENERALES", email: "jflandez@goredelosrios.cl", observation: nil},
+  {rut: "88772180", name: "YANET CECILIA ALAMOS PARRA", unity: "SECRETARIA", charge: "DEPARTAMENTO JURíDICO", email: "calamos@goredelosrios.cl", observation: nil},
+  {rut: "80643837", name: "IVAN PERCY MADARIAGA SIERRA", unity: "SECRETARIO EJECUTIVO DEL CONSEJO REGIONAL", charge: "SECRETARíA EJECUTIVA CONSEJO REGIONAL", email: "imadariaga@goredelosrios.cl", observation: nil},
+  {rut: "94554942", name: "EDMUNDO RICARDO URRA OSSES", unity: "FOMENTO PRODUCTIVO E INDUSTRIA", charge: "PROGRAMA FOMENTO PRODUCTIVO E INDUSTRIA", email: "eurra@goredelosrios.cl", observation: nil},
+  {rut: "144373162", name: "ANDRES EDUARDO HERNANDEZ SANCHEZ", unity: "FOMENTO PRODUCTIVO E INDUSTRIA", charge: "PROGRAMA FOMENTO PRODUCTIVO E INDUSTRIA", email: "ahernandez@goredelosrios.cl", observation: nil},
+  {rut: "81449686", name: "CAMILO ANTONIO DIAZ LUNA", unity: "PROGRAMA DE GESTíON TERRITORIAL ZONAS REZAGADAS", charge: "PROGRAMA DE GESTíON TERRITORIAL ZONAS REZAGADAS", email: "cdiazl@goredelosrios.cl", observation: nil},
+  {rut: "136931709", name: "GERARDO ANTONIO TORRES TOLEDO", unity: nil, charge: "PROGRAMA DE GESTíON TERRITORIAL ZONAS REZAGADAS", email: nil, observation: nil},
+  {rut: "136604902", name: "RICARDO ANTONIO YAÑEZ PEREDA", unity: "GESTIóN TERRITORIAL PARA ZONAS REZAGADAS", charge: "PROGRAMA DE GESTíON TERRITORIAL ZONAS REZAGADAS", email: "ryanez@goredelosrios.cl", observation: nil},
+  {rut: "153047901", name: "LEONARDO ENRIQUE CISTERNA TELLEZ", unity: "RESIDUOS SOLIDOS", charge: "PROGRAMA RESIDUOS SóLIDOS", email: "lcisterna@goredelosrios.cl", observation: nil},
+  {rut: "84035831", name: "JORGE ANDRES LOPEZ GALLEGOS", unity: "PROFESIONAL PROGRAMA PIRDT", charge: "PROGRAMA INFRAESTRUCTURA PARA EL DESARROLLO TERRITORIAL", email: "jlopez@goredelosrios.cl", observation: nil},
+  {rut: "129941804", name: "MIGUEL ANGEL MARTINEZ QUILAPAN", unity: "CUARTA DIVISIóN FOMENTO PRODUCTIVO E INDUSTRIA", charge: "PROGRAMA FOMENTO PRODUCTIVO E INDUSTRIA", email: "mmartinez@goredelosrios.cl", observation: nil},
+  {rut: "86519321", name: "JORGE BENITO RODRIGUEZ FIGUEROA", unity: "PROGRAMA DE ELECTRIFICACION RURAL", charge: "PROGRAMA ELECTRIFICACIóN RURAL", email: "JRODRIGUEZ@GOREDELOSRIOS.CL", observation: nil},
+  {rut: "160402415", name: "JORGE ANDRES HERNANDEZ CARMONA", unity: "ORGANIZACIONES SOCIALES", charge: "ORGANIZACIONES SOCIALES", email: "jhernandezc@goredelosrios.cl", observation: nil},
+  {rut: "129123893", name: "CRISTIAN RODRIGO MUÑOZ JARA", unity: "PROGRAMA DE INFRAESTRUCTURA PARA EL DESARROLLO TERRITORIAL", charge: "PROGRAMA INFRAESTRUCTURA PARA EL DESARROLLO TERRITORIAL", email: "cmunozj@goredelosrios.cl", observation: nil},
+  {rut: "115909630", name: "MICHEL ANTONIO BUCHNER ASENJO", unity: "DIVISIóN DE PLANIFICACIóN Y DESARROLLO REGIONAL ", charge: "DIVISIóN DE PLANIFICACIóN Y DESARROLLO REGIONAL", email: "mbuchner@goredelosrios.cl", observation: nil},
+  {rut: "109061476", name: "JUAN JAVIER ROCHA AGUILERA", unity: "ORGANIZACIONES SOCIALES", charge: "ORGANIZACIONES SOCIALES", email: "jrocha@goredelosrios.cl", observation: nil},
+  {rut: "107702768", name: "JAIME SEBASTIAN LIENLAF LIENLAF", unity: "UNIDAD DE PARTICIPACIóN CIUDADANA", charge: "UNIDAD DE PARTICIPACIóN CIUDADANA", email: "jlienlaf@goredelosrios.cl", observation: nil},
+  {rut: "135199516", name: "CHRISTIAN ALEX MANSILLA CUEVAS", unity: "PREVENCIóN DE RIESGOS", charge: "UNIDAD DE GESTIóN ESTRATéGICA INSTITUCIONAL", email: "cmansilla@goredelosrios.cl", observation: nil},
+  {rut: "155885505", name: "CRISTIAN ANDRES CARDENAS CARDENAS", unity: "UNIDAD DE SUBVENCIONES", charge: "UNIDAD DE SUBVENCIONES", email: "ccardenas@goredelosrios.cl", observation: nil},
+  {rut: "65308894", name: "ALEJANDRO EDUARDO KOHLER VARGAS", unity: "ORGANIZACIONES SOCIALES ", charge: "ORGANIZACIONES SOCIALES", email: "AKOHLER@GOREDELOSRIOS.CL", observation: nil},
+  {rut: "125947034", name: "VICTOR ROLANDO CARRILLO MIRANDA", unity: "APOYO CONTABLE EN DPTO. DE FINANZAS", charge: "DEPARTAMENTO DE FINANZAS", email: "vcarrillo@goredelosrios.cl", observation: nil},
+  {rut: "101055744", name: "PATRICIO MARCELO MEDINA CARDENAS", unity: "ORGANIZACIONES SOCIALES", charge: "ORGANIZACIONES SOCIALES", email: "mmedina@goredelosrios.cl", observation: nil},
+  {rut: "152620764", name: "CRISTIAN ALEJANDRO AGUILAR PEREIRA", unity: "HONORARIOS DPTO. DE FINANZAS", charge: "DEPARTAMENTO DE FINANZAS", email: "caguilar@goredelosrios.cl", observation: nil},
+  {rut: "178640879", name: "FRANCISCO ANDRES MUÑOZ SEPULVEDA", unity: "DIVISIóN ANáLISIS Y CONTROL DE GESTIóN", charge: "DIVISIóN DE ANáLISIS Y CONTROL DE GESTIóN", email: "fmunoz@goredelosrios.cl", observation: nil},
+  {rut: "8760148K", name: "LUIS ARTURO CANO SILVA", unity: "GABINETE", charge: "GABINETE Y COMUNICACIóN", email: "lcano@goredelosrios.cl", observation: nil},
+  {rut: "155491299", name: "MARCO ANTONIO MATTAR SILVA", unity: "ORGANIZACIONES SOCIALES", charge: "ORGANIZACIONES SOCIALES", email: "mmattar@goredelosrios.cl", observation: nil},
+  {rut: "10353108K", name: "CARLOS PATRICIO ULLOA HEINSOHN", unity: "UNIDAD DE PARTICIPACIóN CIUDADANA", charge: "UNIDAD DE PARTICIPACIóN CIUDADANA", email: "pulloa@goredelosrios.cl", observation: nil},
+  {rut: "178100351", name: "VICTOR ANDRES TORREJON BARAHONA", unity: "ORGANIZACIONES SOCIALES", charge: "ORGANIZACIONES SOCIALES", email: "vtorrejon@goredelosrios.cl", observation: nil},
+  {rut: "124325293", name: "JOSE LUIS MEZA MEZA", unity: "RECEPCIONISTA SEDE DEL CONSEJO REGIONAL DE LOS RíOS", charge: "SECRETARíA EJECUTIVA CONSEJO REGIONAL", email: "jmeza@goredelosrios.cl", observation: nil},
+  {rut: "173587767", name: "LUCAS MATEO SANDOVAL FARIAS", unity: "UNIDAD DE SUBVENCIONES", charge: "UNIDAD DE SUBVENCIONES", email: nil, observation: nil},
+  {rut: "129882174", name: "SUSAN DEL CARMEN FLORES VINETT", unity: "PROGRAMA FOMENTO PRODUCTIVO E INDUSTRIA", charge: "PROGRAMA FOMENTO PRODUCTIVO E INDUSTRIA", email: "sflores@goredelosrios.cl", observation: nil},
+  {rut: "143485153", name: "KARIN WALESKA RAMIREZ MUÑOZ", unity: "PROGRAMA DE GESTIóN TERRITORIAL ZONAS REZAGADAS", charge: "PROGRAMA DE GESTíON TERRITORIAL ZONAS REZAGADAS", email: "kramirez@goredelosrios.cl", observation: nil},
+  {rut: "168475853", name: "GLORIA VALESKA BARRIA SALAS", unity: "UNIDAD FRIL", charge: "UNIDAD FRIL", email: "vbarria@goredelosrios.cl", observation: nil},
+  {rut: "168067542", name: "PAOLA ALEJANDRA GONZALEZ BURGOS", unity: "PROFESIONAL DE APOYO PROGRAMA PIRDT", charge: "PROGRAMA INFRAESTRUCTURA PARA EL DESARROLLO TERRITORIAL", email: "pgonzalez@goredelosrios.cl", observation: nil},
+  {rut: "8886414K", name: "LAURA MARLENE RAMIREZ MUÑOZ", unity: "PIRDT", charge: "PROGRAMA INFRAESTRUCTURA PARA EL DESARROLLO TERRITORIAL", email: "lramirez@goredelosrios.cl", observation: nil},
+  {rut: "168053118", name: "CATALINA ANDREA PÉREZ SANTIBÁÑEZ", unity: "PROGRAMA SANEAMIENTO SANITARIO", charge: "PROGRAMA SANEAMIENTO SANITARIO", email: "cperezs@goredelosrios.cl", observation: nil},
+  {rut: "74411266", name: "PATRICIA VERONICA HENRIQUEZ GUTIERREZ", unity: "HONORARIO SANEAMIENTO SANITARIO", charge: "PROGRAMA SANEAMIENTO SANITARIO", email: "phenriquez@goredelosrios.cl", observation: nil},
+  {rut: "118372727", name: "CLAUDIA ALEJANDRA VALLEFIN CARVALLO", unity: "SECRETARIA PRESIDENTE CONSEJO REGIONAL", charge: "SECRETARíA EJECUTIVA CONSEJO REGIONAL", email: "cvallefin@goredelosrios.cl", observation: nil},
+  {rut: "7059367K", name: "GLADYS DEL CARMEN JARAMILLO CACERES", unity: "ORGANIZACIONES SOCIALES", charge: "ORGANIZACIONES SOCIALES", email: "gjaramillo@goredelosrios.cl", observation: nil},
+  {rut: "145239192", name: "SANDRA JEANETTE RIFFO  SILVA", unity: "UNIDAD FRIL", charge: "UNIDAD FRIL", email: "sriffo@goredelosrios.cl", observation: nil},
+  {rut: "138154556", name: "CARLA MARIAN VARGAS PELLET", unity: "ASESORÍA UNIDAD DE SERVICIOS GENERALES", charge: "DEPARTAMENTO DE FINANZAS", email: "cvargasp@goredelosrios.cl", observation: nil},
+  {rut: "138216063", name: "JÉSSICA KARINA AZÓCAR FONTEALBA", unity: "HONORARIO CORE", charge: "SECRETARíA EJECUTIVA CONSEJO REGIONAL", email: "kekazocar@yahoo.es", observation: nil},
+  {rut: "179632705", name: "CAMILA IZABO ULLOA DELGADO", unity: "DEPARTAMENTO DE PERSONAL", charge: "DEPARTAMENTO DE PERSONAL", email: "culloa@goredelosrios.cl", observation: nil}
+])

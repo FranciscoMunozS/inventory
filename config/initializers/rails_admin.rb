@@ -44,6 +44,9 @@ RailsAdmin.config do |config|
   end
   config.model 'Worker' do
     list do
+      field :rut do
+        label "RUT"
+      end
       field :name do
         label "Nombre"
       end
@@ -53,14 +56,11 @@ RailsAdmin.config do |config|
       field :unity do
         label "Unidad"
       end
-      field :division do
-        label "División"
-      end
       field :email do
         label "Correo electronico"
       end
-      field :phone do
-        label "Anexo telefonico"
+      field :observation do
+        label "Observación"
       end
       field :computer do
         label "Equipo asignado"
@@ -69,6 +69,9 @@ RailsAdmin.config do |config|
   end
   config.model 'Worker' do
     show do
+      field :rut do
+        label "RUT"
+      end
       field :name do
         label "Nombre"
       end
@@ -78,14 +81,11 @@ RailsAdmin.config do |config|
       field :unity do
         label "Unidad"
       end
-      field :division do
-        label "División"
-      end
       field :email do
         label "Correo electronico"
       end
-      field :phone do
-        label "Anexo telefonico"
+      field :observation do
+        label "Observación"
       end
       field :computer do
         label "Equipo asignado"
@@ -94,8 +94,8 @@ RailsAdmin.config do |config|
   end
   config.model 'Worker' do
     edit do
-      field :name do
-        label "Nombre"
+      field :rut do
+        label "RUT"
       end
       field :charge do
         label "Cargo"
@@ -119,23 +119,23 @@ RailsAdmin.config do |config|
   end
   config.model 'Worker' do
     create do
+      field :rut do
+        label "RUT"
+      end
       field :name do
         label "Nombre"
       end
-      field :charge do
+      field :Charge do
         label "Cargo"
       end
       field :unity do
         label "Unidad"
       end
-      field :division do
-        label "División"
-      end
       field :email do
         label "Correo electronico"
       end
-      field :phone do
-        label "Anexo telefonico"
+      field :Observation do
+        label "Observación"
       end
       field :computer do
         label "Equipo asignado"
@@ -144,6 +144,9 @@ RailsAdmin.config do |config|
   end
   config.model 'Worker' do
     export do
+      field :rut do
+        label "RUT"
+      end
       field :name do
         label "Nombre"
       end
@@ -153,14 +156,11 @@ RailsAdmin.config do |config|
       field :unity do
         label "Unidad"
       end
-      field :division do
-        label "División"
-      end
       field :email do
         label "Correo electronico"
       end
-      field :phone do
-        label "Anexo telefonico"
+      field :observation do
+        label "Observación"
       end
       field :computer do
         label "Equipo asignado"
