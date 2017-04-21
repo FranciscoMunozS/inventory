@@ -23,6 +23,16 @@ server '172.16.7.143', user: 'deploy', roles: %w{app db web}
 # role :web, %w{user1@primary.com user2@additional.com}, other_property: :other_value
 # role :db,  %w{deploy@example.com}
 
+config.action_mailer.delivery_method = :smtp
+ config.action_mailer.smtp_settings = {
+     :address              => "smtp.gmail.com",
+     :port                 => 587,
+     :domain               => 'mail.google.com',
+     :user_name            => 'railstestmailapp@gmail.com',
+     :password             => 'ScavengerDeath0709',
+     :authentication       => 'plain',
+     :enable_starttls_auto => true
+ }
 
 
 # Configuration
