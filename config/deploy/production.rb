@@ -1,3 +1,4 @@
+Rails.application.configure do
 # server-based syntax
 # ======================
 # Defines a single server with a list of roles and multiple properties.
@@ -33,7 +34,7 @@ server '172.16.7.143', user: 'deploy', roles: %w{app db web}
 # http://capistranorb.com/documentation/getting-started/configuration/
 # Feel free to add new variables to customise your setup.
 
-Rails.application.configure do
+
   config.action_mailer.default_url_options = { :host => '172.16.7.143' }
   config.action_mailer.raise_delivery_errors = true
   config.action_mailer.delivery_method = :smtp
