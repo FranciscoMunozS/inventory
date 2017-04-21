@@ -1,4 +1,3 @@
-Rails.application.configure do
 # server-based syntax
 # ======================
 # Defines a single server with a list of roles and multiple properties.
@@ -33,21 +32,6 @@ server '172.16.7.143', user: 'deploy', roles: %w{app db web}
 # For available Capistrano configuration variables see the documentation page.
 # http://capistranorb.com/documentation/getting-started/configuration/
 # Feel free to add new variables to customise your setup.
-
-
-  config.action_mailer.default_url_options = { :host => '172.16.7.143' }
-  config.action_mailer.raise_delivery_errors = true
-  config.action_mailer.delivery_method = :smtp
-  config.action_mailer.smtp_settings = {
-      :enable_starttls_auto => true,
-      :address => "smtp.gmail.com",
-      :port => 587,
-      :domain => "gmail.com",
-      :authentication => :plain,
-      :user_name => "railstestmailapp@gmail.com",
-      :password => "ScavengerDeath0709"
-  }
-end
 
 # Custom SSH Options
 # ==================
