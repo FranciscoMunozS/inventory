@@ -31,6 +31,9 @@ en:
       computer:
         one: Equipo computacional
         other: Equipos computacionales
+      screen:
+        one: Monitor
+        other: Monitores
   admin:
     js:
       true: Verdadero

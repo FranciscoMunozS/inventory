@@ -65,6 +65,9 @@ RailsAdmin.config do |config|
       field :computer do
         label "Equipo asignado"
       end
+      field :screen do
+        label "Monitor asignado"
+      end
     end
   end
   config.model 'Worker' do
@@ -89,6 +92,9 @@ RailsAdmin.config do |config|
       end
       field :computer do
         label "Equipo asignado"
+      end
+      field :screen do
+        label "Monitor asignado"
       end
     end
   end
@@ -125,6 +131,9 @@ RailsAdmin.config do |config|
       field :computer do
         label "Equipo asignado"
       end
+      field :screen do
+        label "Monitor asignado"
+      end
     end
   end
   config.model 'Worker' do
@@ -157,6 +166,9 @@ RailsAdmin.config do |config|
       end
       field :computer do
         label "Equipo asignado"
+      end
+      field :screen do
+        label "Monitor asignado"
       end
     end
   end
@@ -330,6 +342,116 @@ RailsAdmin.config do |config|
     export do
       field :email do
         label "Correo electronico"
+      end
+    end
+  end
+  config.model 'Screen' do
+    list do
+      field :name do
+        label "Marca"
+      end
+      field :model do
+        label "Modelo"
+      end
+      field :serial do
+        label "Nº de serie"
+      end
+      field :observation do
+        label "Observación"
+      end
+      field :delivered_at do
+        label "Entregado el"
+      end
+      field :worker do
+        label "Asignado a"
+      end
+    end
+  end
+  config.model 'Screen' do
+    create do
+      field :name do
+        label "Marca"
+      end
+      field :model do
+        label "Modelo"
+      end
+      field :serial do
+        label "Nº de serie"
+      end
+      field :observation do
+        label "Observación"
+      end
+      field :delivered_at do
+        label "Entregado el"
+      end
+      field :worker do
+        label "Asignado a"
+      end
+    end
+  end
+  config.model 'Screen' do
+    edit do
+      field :name do
+        label "Marca"
+      end
+      field :model do
+        label "Modelo"
+      end
+      field :serial do
+        label "Nº de serie"
+      end
+      field :observation do
+        label "Observación"
+      end
+      field :delivered_at do
+        label "Entregado el"
+      end
+      field :worker do
+        label "Asignado a"
+      end
+    end
+  end
+  config.model 'Screen' do
+    show do
+      field :name do
+        label "Marca"
+      end
+      field :model do
+        label "Modelo"
+      end
+      field :serial do
+        label "Nº de serie"
+      end
+      field :observation do
+        label "Observación"
+      end
+      field :delivered_at do
+        label "Entregado el"
+      end
+      field :worker do
+        label "Asignado a"
+      end
+    end
+  end
+  config.model 'Screen' do
+    export do
+      field :name do
+        label "Marca"
+      end
+      field :model do
+        label "Modelo"
+      end
+      field :serial do
+        label "Nº de serie"
+      end
+      field :observation do
+        label "Observación"
+      end
+      field :delivered_at do
+        label "Entregado el"
+      end
+      field :worker do
+        label "Asignado a"
       end
     end
   end
