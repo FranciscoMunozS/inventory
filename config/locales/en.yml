@@ -29,8 +29,8 @@ en:
         one: Funcionario
         other: Funcionarios
       computer:
-        one: Equipo computacional
-        other: Equipos computacionales
+        one: Computador
+        other: Computadores
       screen:
         one: Monitor
         other: Monitores
