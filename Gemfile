@@ -14,6 +14,7 @@ gem 'rails_admin'
 gem 'simple_form'
 gem 'devise'
 gem 'bootstrap-sass'
+gem 'brakeman'
 gem 'rails_admin_material_theme', '~> 0.2.0'
 gem 'capistrano-rails-collection'
 group :development do
