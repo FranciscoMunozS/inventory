@@ -203,34 +203,37 @@ RailsAdmin.config do |config|
   end
   config.model 'Computer' do
     edit do
-      field :name do
-        required true
-        label "Marca"
-      end
-      field :model do
-        help false
-        label "Modelo"
-      end
-      field :serial do
-        required true
-        label "Numero de serie"
-      end
-      field :address do
-        required true
-        label "Dirección IP"
-      end
-      field :description do
-        help false
-        label "Observación"
-      end
       field :worker do
         required true
         label "Asignado a "
       end
+      field :name do
+        required true
+        label "Marca"
+      end
+      field :model do
+        help false
+        label "Modelo"
+      end
+      field :serial do
+        required true
+        label "Numero de serie"
+      end
+      field :address do
+        required true
+        label "Dirección IP"
+      end
+      field :description do
+        help false
+        label "Observación"
+      end
     end
   end
   config.model 'Computer' do
     show do
+      field :worker do
+        label "Asignado a"
+      end
       field :name do
         label "Marca"
       end
@@ -245,9 +248,6 @@ RailsAdmin.config do |config|
       end
       field :description do
         label "Observación"
-      end
-      field :worker do
-        label "Asignado a"
       end
     end
   end
@@ -281,6 +281,9 @@ RailsAdmin.config do |config|
   end
   config.model 'Computer' do
     export do
+      field :description do
+        label "Observación"
+      end
       field :name do
         label "Marca"
       end
@@ -292,9 +295,6 @@ RailsAdmin.config do |config|
       end
       field :address do
         label "Dirección IP"
-      end
-      field :description do
-        label "Observación"
       end
     end
   end
@@ -347,6 +347,9 @@ RailsAdmin.config do |config|
   end
   config.model 'Screen' do
     list do
+      field :worker do
+        label "Asignado a"
+      end
       field :name do
         label "Marca"
       end
@@ -362,13 +365,13 @@ RailsAdmin.config do |config|
       field :delivered_at do
         label "Entregado el"
       end
-      field :worker do
-        label "Asignado a"
-      end
     end
   end
   config.model 'Screen' do
     create do
+      field :worker do
+        label "Asignado a"
+      end
       field :name do
         label "Marca"
       end
@@ -391,6 +394,9 @@ RailsAdmin.config do |config|
   end
   config.model 'Screen' do
     edit do
+      field :worker do
+        label "Asignado a"
+      end
       field :name do
         label "Marca"
       end
@@ -405,14 +411,14 @@ RailsAdmin.config do |config|
       end
       field :delivered_at do
         label "Entregado el"
-      end
-      field :worker do
-        label "Asignado a"
       end
     end
   end
   config.model 'Screen' do
     show do
+      field :worker do
+        label "Asignado a"
+      end
       field :name do
         label "Marca"
       end
@@ -427,14 +433,14 @@ RailsAdmin.config do |config|
       end
       field :delivered_at do
         label "Entregado el"
-      end
-      field :worker do
-        label "Asignado a"
       end
     end
   end
   config.model 'Screen' do
     export do
+      field :worker do
+        label "Asignado a"
+      end
       field :name do
         label "Marca"
       end
@@ -449,9 +455,6 @@ RailsAdmin.config do |config|
       end
       field :delivered_at do
         label "Entregado el"
-      end
-      field :worker do
-        label "Asignado a"
       end
     end
   end
