@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170504120518) do
+ActiveRecord::Schema.define(version: 20170504150006) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -25,6 +25,12 @@ ActiveRecord::Schema.define(version: 20170504120518) do
     t.string   "name"
     t.integer  "worker_id"
     t.datetime "delivered_at"
+    t.string   "cpu"
+    t.string   "hdd"
+    t.string   "ram"
+    t.boolean  "odd"
+    t.string   "macaddress"
+    t.string   "os"
   end
 
   create_table "screens", force: :cascade do |t|

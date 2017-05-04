@@ -42,6 +42,9 @@ RailsAdmin.config do |config|
     # history_index
     # history_show
   end
+
+# Funcionarios
+
   config.model 'Worker' do
     list do
       field :rut do
@@ -173,6 +176,8 @@ RailsAdmin.config do |config|
     end
   end
 
+# Computadores
+
   config.model 'Computer' do
     list do
       field :worker do
@@ -186,6 +191,30 @@ RailsAdmin.config do |config|
       field :model do
         help false
         label "Modelo"
+      end
+      field :cpu do
+        help false
+        label "Procesador"
+      end
+      field :hdd do
+        help false
+        label "Disco Duro"
+      end
+      field :ram do
+        help false
+        label "Memoria RAM"
+      end
+      field :odd do
+        help false
+        label "Lector optico"
+      end
+      field :macaddress do
+        help false
+        label "Dirección MAC"
+      end
+      field :os do
+        help false
+        label "Sistema operativo"
       end
       field :serial do
         required true
@@ -219,6 +248,30 @@ RailsAdmin.config do |config|
         help false
         label "Modelo"
       end
+      field :cpu do
+        help false
+        label "Procesador"
+      end
+      field :hdd do
+        help false
+        label "Disco Duro"
+      end
+      field :ram do
+        help false
+        label "Memoria RAM"
+      end
+      field :odd do
+        help false
+        label "Lector optico"
+      end
+      field :macaddress do
+        help false
+        label "Dirección MAC"
+      end
+      field :os do
+        help false
+        label "Sistema operativo"
+      end
       field :serial do
         required true
         label "Numero de serie"
@@ -248,6 +301,30 @@ RailsAdmin.config do |config|
       field :model do
         label "Modelo"
       end
+      field :cpu do
+        help false
+        label "Procesador"
+      end
+      field :hdd do
+        help false
+        label "Disco Duro"
+      end
+      field :ram do
+        help false
+        label "Memoria RAM"
+      end
+      field :odd do
+        help false
+        label "Lector optico"
+      end
+      field :macaddress do
+        help false
+        label "Dirección MAC"
+      end
+      field :os do
+        help false
+        label "Sistema operativo"
+      end
       field :serial do
         label "Numero de serie"
       end
@@ -272,6 +349,30 @@ RailsAdmin.config do |config|
       field :model do
         help false
         label "Modelo"
+      end
+      field :cpu do
+        help false
+        label "Procesador"
+      end
+      field :hdd do
+        help false
+        label "Disco Duro"
+      end
+      field :ram do
+        help false
+        label "Memoria RAM"
+      end
+      field :odd do
+        help false
+        label "Lector optico"
+      end
+      field :macaddress do
+        help false
+        label "Dirección MAC"
+      end
+      field :os do
+        help false
+        label "Sistema operativo"
       end
       field :serial do
         required true
@@ -306,6 +407,30 @@ RailsAdmin.config do |config|
       field :model do
         label "Modelo"
       end
+      field :cpu do
+        help false
+        label "Procesador"
+      end
+      field :hdd do
+        help false
+        label "Disco Duro"
+      end
+      field :ram do
+        help false
+        label "Memoria RAM"
+      end
+      field :odd do
+        help false
+        label "Lector optico"
+      end
+      field :macaddress do
+        help false
+        label "Dirección MAC"
+      end
+      field :os do
+        help false
+        label "Sistema operativo"
+      end
       field :serial do
         label "Numero de serie"
       end
@@ -318,6 +443,9 @@ RailsAdmin.config do |config|
       end
     end
   end
+
+# Usuarios
+
   config.model 'User' do
     list do
       field :email do
@@ -365,6 +493,9 @@ RailsAdmin.config do |config|
       end
     end
   end
+
+  # Monitores
+
   config.model 'Screen' do
     list do
       field :worker do
