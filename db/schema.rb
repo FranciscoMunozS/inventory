@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170504150006) do
+ActiveRecord::Schema.define(version: 20170504180527) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -31,6 +31,7 @@ ActiveRecord::Schema.define(version: 20170504150006) do
     t.boolean  "odd"
     t.string   "macaddress"
     t.string   "os"
+    t.string   "bill"
   end
 
   create_table "screens", force: :cascade do |t|

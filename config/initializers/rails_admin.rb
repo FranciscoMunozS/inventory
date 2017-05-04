@@ -228,6 +228,10 @@ RailsAdmin.config do |config|
         help false
         label "Observación"
       end
+      field :bill do
+        help false
+        label "Factura/Boleta"
+      end
       field :created_at do
         required true
         label "Fecha de entrega"
@@ -389,6 +393,10 @@ RailsAdmin.config do |config|
       field :description do
         help false
         label "Observación"
+      end
+      field :bill do
+        help false
+        label "Factura/Boleta"
       end
       field :worker do
         required true
