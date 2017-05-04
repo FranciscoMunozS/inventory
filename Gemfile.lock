@@ -259,7 +259,7 @@ DEPENDENCIES
   activevalidators (~> 4.0.1)
   bootstrap-sass
   byebug
-  capistrano
+  capistrano (~> 3.8.0)
   capistrano-passenger
   capistrano-rails
   capistrano-rails-collection
