@@ -199,6 +199,10 @@ RailsAdmin.config do |config|
         help false
         label "Observación"
       end
+      field :created_at do
+        required true
+        label "Fecha de entrega"
+      end
     end
   end
   config.model 'Computer' do
@@ -223,6 +227,10 @@ RailsAdmin.config do |config|
         required true
         label "Dirección IP"
       end
+      field :created_at do
+        required true
+        label "Fecha de entrega"
+      end
       field :description do
         help false
         label "Observación"
@@ -245,6 +253,10 @@ RailsAdmin.config do |config|
       end
       field :address do
         label "Dirección IP"
+      end
+      field :created_at do
+        required true
+        label "Fecha de entrega"
       end
       field :description do
         label "Observación"
@@ -269,6 +281,10 @@ RailsAdmin.config do |config|
         required true
         label "Dirección IP"
       end
+      field :created_at do
+        required true
+        label "Fecha de entrega"
+      end
       field :description do
         help false
         label "Observación"
@@ -292,6 +308,10 @@ RailsAdmin.config do |config|
       end
       field :serial do
         label "Numero de serie"
+      end
+      field :created_at do
+        required true
+        label "Fecha de entrega"
       end
       field :address do
         label "Dirección IP"
@@ -406,11 +426,11 @@ RailsAdmin.config do |config|
       field :serial do
         label "Nº de serie"
       end
-      field :observation do
-        label "Observación"
-      end
       field :delivered_at do
         label "Entregado el"
+      end
+      field :observation do
+        label "Observación"
       end
     end
   end
@@ -428,11 +448,11 @@ RailsAdmin.config do |config|
       field :serial do
         label "Nº de serie"
       end
-      field :observation do
-        label "Observación"
-      end
       field :delivered_at do
         label "Entregado el"
+      end
+      field :observation do
+        label "Observación"
       end
     end
   end
@@ -450,11 +470,11 @@ RailsAdmin.config do |config|
       field :serial do
         label "Nº de serie"
       end
-      field :observation do
-        label "Observación"
-      end
       field :delivered_at do
         label "Entregado el"
+      end
+      field :observation do
+        label "Observación"
       end
     end
   end
