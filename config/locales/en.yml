@@ -72,7 +72,7 @@ en:
       add_filter: "Agregar filtro"
       bulk_menu_title: "Items seleccionados"
       remove: "Quitar"
-      add_new: "Agregar nuev"o
+      add_new: "Agregar nueva"
       chosen: "Escoger %{name}"
       chose_all: "Escoger todo"
       clear_all: "Limpiar todo"
