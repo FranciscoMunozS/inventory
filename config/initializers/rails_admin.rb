@@ -301,6 +301,9 @@ end
         help false
         label "Observación"
       end
+      field :tasks do
+        label "Tareas realizadas"
+      end
     end
   end
   config.model 'Computer' do
@@ -350,6 +353,9 @@ end
       end
       field :description do
         label "Observación"
+      end
+      field :tasks do
+        label "Tareas realizadas"
       end
     end
   end
