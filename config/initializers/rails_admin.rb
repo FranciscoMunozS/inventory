@@ -47,7 +47,7 @@ RailsAdmin.config do |config|
 
 config.model 'Task' do 
   visible false
-  field :description do
+  field :name do
     label "Tarea realizada"
   end
 end
@@ -236,6 +236,10 @@ end
       field :description do
         help false
         label "Observación"
+      end
+      field :tasks do
+        help false
+        label "Tareas realizadas"
       end
       field :bill do
         help false
