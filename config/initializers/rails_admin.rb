@@ -43,6 +43,15 @@ RailsAdmin.config do |config|
     # history_show
   end
 
+# Tareas
+
+config.model 'Task' do 
+  visible false
+  field :description do
+    label "Tarea realizada"
+  end
+end
+
 # Funcionarios
 
   config.model 'Worker' do
@@ -393,6 +402,9 @@ RailsAdmin.config do |config|
       field :description do
         help false
         label "Observación"
+      end
+      field :tasks do
+        label "Tareas"
       end
       field :bill do
         help false

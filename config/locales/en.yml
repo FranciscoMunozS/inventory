@@ -34,6 +34,9 @@ en:
       screen:
         one: Monitor
         other: Monitores
+      task:
+        one: Tarea
+        other: Tareas
   admin:
     js:
       true: Verdadero
