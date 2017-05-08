@@ -52,6 +52,24 @@ config.model 'Task' do
   end
 end
 
+# Documentos
+
+config.model 'Document' do
+  visible false
+  field :number do
+    label "Numero documento"
+  end
+  field :date do
+    label "Fecha documento"
+  end
+  field :customer do
+    label "Proveedor"
+  end
+  field :garanty do
+    label "Garantia"
+  end
+end
+
 # Caracteristicas
 
 config.model 'Char' do
@@ -408,6 +426,9 @@ end
         help false
         label "Tareas realizadas"
       end
+      field :documents do
+        label "Información de pago"
+      end
       field :bill do
         help false
         label "Factura/Boleta"
@@ -475,6 +496,9 @@ end
       field :tasks do
         label "Tareas realizadas"
       end
+      field :documents do
+        label "Información de pago"
+      end
     end
   end
   config.model 'Computer' do
@@ -527,6 +551,9 @@ end
       end
       field :tasks do
         label "Tareas realizadas"
+      end
+      field :documents do
+        label "Información de pago"
       end
     end
   end
@@ -582,6 +609,9 @@ end
       end
       field :tasks do
         label "Tareas"
+      end
+      field :documents do
+        label "Información de pago"
       end
       field :bill do
         help false

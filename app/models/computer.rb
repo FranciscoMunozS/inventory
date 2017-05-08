@@ -3,4 +3,6 @@ class Computer < ApplicationRecord
   mount_uploader :bill, BillUploader
   has_many :tasks, :dependent => :destroy, :inverse_of => :computer
   accepts_nested_attributes_for :tasks, :allow_destroy => true
+  has_many :documents, :dependent => :destroy, :inverse_of => :computer
+  accepts_nested_attributes_for :documents, :allow_destroy => true
 end

@@ -97,6 +97,9 @@ en:
       datashow:
         one: Proyector
         other: Proyectores
+      document:
+        one: información de pago
+        other: información de pagos
   admin:
     js:
       true: Verdadero
