@@ -27,6 +27,9 @@ en:
       words_connector: ", "
   activerecord:
     models:
+      printer:
+        one: Impresora
+        other: Impresoras
       user:
         one: Usuario
         other: Usuarios
@@ -40,8 +43,14 @@ en:
         one: Monitor
         other: Monitores
       task:
-        one: Tarea
-        other: Tareas
+        one: tarea
+        other: tareas
+      char:
+        one: caracteristica
+        other: caracteristicas
+      datashow:
+        one: Proyector
+        other: Proyectores
   admin:
     js:
       true: Verdadero
@@ -122,7 +131,7 @@ en:
         title: "Nuevo %{model_label}"
         menu: "Agregar nuevo"
         breadcrumb: "Nuevo"
-        link: "Agregar nuevo %{model_label}"
+        link: "Agregar nueva %{model_label}"
         done: "Creado"
       edit:
         title: "Editar %{model_label} '%{object_label}'"

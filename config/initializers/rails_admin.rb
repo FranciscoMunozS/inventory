@@ -45,10 +45,177 @@ RailsAdmin.config do |config|
 
 # Tareas
 
-config.model 'Task' do 
+config.model 'Task' do
   visible false
   field :name do
     label "Tarea realizada"
+  end
+end
+
+# Caracteristicas
+
+config.model 'Char' do
+  visible false
+  field :name do
+    label "Caracteristicas"
+  end
+end
+
+# Proyectores
+
+config.model 'Datashow' do
+  list do
+    field :name do
+      label "Marca"
+    end
+    field :model do
+      label "Modelo"
+    end
+    field :serial do
+      label "Numero de serie"
+    end
+    field :chars do
+      label "Caracteristicas"
+    end
+    field :ubication do
+      label "Ubicación"
+    end
+    field :observation do
+      label "Observación"
+    end
+  end
+  create do
+    field :name do
+      label "Marca"
+    end
+    field :model do
+      label "Modelo"
+    end
+    field :serial do
+      label "Numero de serie"
+    end
+    field :chars do
+      label "Caracteristicas"
+    end
+    field :ubication do
+      label "Ubicación"
+    end
+    field :observation do
+      label "Observación"
+    end
+  end
+  edit do
+    field :name do
+      label "Marca"
+    end
+    field :model do
+      label "Modelo"
+    end
+    field :serial do
+      label "Numero de serie"
+    end
+    field :chars do
+      label "Caracteristicas"
+    end
+    field :ubication do
+      label "Ubicación"
+    end
+    field :observation do
+      label "Observación"
+    end
+  end
+  export do
+    field :name do
+      label "Marca"
+    end
+    field :model do
+      label "Modelo"
+    end
+    field :serial do
+      label "Numero de serie"
+    end
+    field :chars do
+      label "Caracteristicas"
+    end
+    field :ubication do
+      label "Ubicación"
+    end
+    field :observation do
+      label "Observación"
+    end
+  end
+end
+
+# Impresoras
+
+config.model 'Printer' do
+  list do
+    field :name do
+      label "Marca"
+    end
+    field :model do
+      label "Modelo"
+    end
+    field :serial do
+      label "Numero de serie"
+    end
+    field :address do
+      label "Dirección IP"
+    end
+    field :observation do
+      label "Observación"
+    end
+  end
+  create do
+    field :name do
+      label "Marca"
+    end
+    field :model do
+      label "Modelo"
+    end
+    field :serial do
+      label "Numero de serie"
+    end
+    field :address do
+      label "Dirección IP"
+    end
+    field :observation do
+      label "Observación"
+    end
+  end
+  edit do
+    field :name do
+      label "Marca"
+    end
+    field :model do
+      label "Modelo"
+    end
+    field :serial do
+      label "Numero de serie"
+    end
+    field :address do
+      label "Dirección IP"
+    end
+    field :observation do
+      label "Observación"
+    end
+  end
+  export do
+    field :name do
+      label "Marca"
+    end
+    field :model do
+      label "Modelo"
+    end
+    field :serial do
+      label "Numero de serie"
+    end
+    field :address do
+      label "Dirección IP"
+    end
+    field :observation do
+      label "Observación"
+    end
   end
 end
 

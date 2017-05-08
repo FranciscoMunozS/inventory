@@ -10,10 +10,17 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170505175156) do
+ActiveRecord::Schema.define(version: 20170508122232) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "chars", force: :cascade do |t|
+    t.string   "name"
+    t.datetime "created_at",  null: false
+    t.datetime "updated_at",  null: false
+    t.integer  "datashow_id"
+  end
 
   create_table "computers", force: :cascade do |t|
     t.string   "model"
@@ -32,6 +39,33 @@ ActiveRecord::Schema.define(version: 20170505175156) do
     t.string   "macaddress"
     t.string   "os"
     t.string   "bill"
+  end
+
+  create_table "data_fields", force: :cascade do |t|
+    t.string   "name"
+    t.datetime "created_at",  null: false
+    t.datetime "updated_at",  null: false
+    t.integer  "datashow_id"
+  end
+
+  create_table "datashows", force: :cascade do |t|
+    t.string   "name"
+    t.string   "model"
+    t.string   "serial"
+    t.string   "ubication"
+    t.text     "observation"
+    t.datetime "created_at",  null: false
+    t.datetime "updated_at",  null: false
+  end
+
+  create_table "printers", force: :cascade do |t|
+    t.string   "name"
+    t.string   "model"
+    t.string   "serial"
+    t.string   "address"
+    t.text     "observation"
+    t.datetime "created_at",  null: false
+    t.datetime "updated_at",  null: false
   end
 
   create_table "screens", force: :cascade do |t|
