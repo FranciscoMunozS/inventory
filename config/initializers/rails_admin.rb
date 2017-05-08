@@ -79,6 +79,15 @@ config.model 'Char' do
   end
 end
 
+# Caracteristicas impresoras
+
+config.model 'Charprinter' do
+  visible false
+  field :name do
+    label "Caracteristicas impresoras"
+  end
+end
+
 # Proyectores
 
 config.model 'Datashow' do
@@ -168,6 +177,9 @@ end
 
 config.model 'Printer' do
   list do
+    field :worker do
+      label "Asignado a"
+    end
     field :name do
       label "Marca"
     end
@@ -179,12 +191,18 @@ config.model 'Printer' do
     end
     field :address do
       label "Dirección IP"
+    end
+    field :charprinters do
+      label "Caracteristicas"
     end
     field :observation do
       label "Observación"
     end
   end
   create do
+    field :worker do
+      label "Asignado a"
+    end
     field :name do
       label "Marca"
     end
@@ -196,12 +214,18 @@ config.model 'Printer' do
     end
     field :address do
       label "Dirección IP"
+    end
+    field :charprinters do
+      label "Caracteristicas"
     end
     field :observation do
       label "Observación"
     end
   end
   edit do
+    field :worker do
+      label "Asignado a"
+    end
     field :name do
       label "Marca"
     end
@@ -214,11 +238,17 @@ config.model 'Printer' do
     field :address do
       label "Dirección IP"
     end
+    field :chars do
+      label "Caracteristicas"
+    end
     field :observation do
       label "Observación"
     end
   end
   export do
+    field :worker do
+      label "Asignado a"
+    end
     field :name do
       label "Marca"
     end
@@ -265,6 +295,9 @@ end
       field :screen do
         label "Monitor asignado"
       end
+      field :printer do
+        label "Impresora asignada"
+      end
     end
   end
   config.model 'Worker' do
@@ -292,6 +325,9 @@ end
       end
       field :screen do
         label "Monitor asignado"
+      end
+      field :printer do
+        label "Impresora asignada"
       end
     end
   end
@@ -331,6 +367,9 @@ end
       field :screen do
         label "Monitor asignado"
       end
+      field :printer do
+        label "Impresora asignada"
+      end
     end
   end
   config.model 'Worker' do
@@ -366,6 +405,9 @@ end
       end
       field :screen do
         label "Monitor asignado"
+      end
+      field :printer do
+        label "Impresora asignada"
       end
     end
   end
