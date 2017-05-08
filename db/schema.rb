@@ -41,13 +41,6 @@ ActiveRecord::Schema.define(version: 20170508122232) do
     t.string   "bill"
   end
 
-  create_table "data_fields", force: :cascade do |t|
-    t.string   "name"
-    t.datetime "created_at",  null: false
-    t.datetime "updated_at",  null: false
-    t.integer  "datashow_id"
-  end
-
   create_table "datashows", force: :cascade do |t|
     t.string   "name"
     t.string   "model"
