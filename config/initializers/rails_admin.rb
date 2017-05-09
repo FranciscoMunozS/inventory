@@ -384,7 +384,7 @@ end
       field :rut do
         required true
       end
-      exclude_fields :division, :computer
+      exclude_fields :division, :computer, :screen, :printer
     end
   end
   config.model 'Worker' do
