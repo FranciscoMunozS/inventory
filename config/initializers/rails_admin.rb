@@ -43,6 +43,13 @@ RailsAdmin.config do |config|
     # history_show
   end
 
+# Configuración
+
+RailsAdmin.config do |config|
+  config.total_columns_width = 1500
+end
+
+
 # Tareas
 
 config.model 'Task' do
