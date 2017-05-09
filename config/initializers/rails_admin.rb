@@ -724,6 +724,9 @@ end
 
   config.model 'User' do
     list do
+      field :username do
+        label "Nombre de usuario"
+      end
       field :email do
         label "Correo electronico"
       end
@@ -731,6 +734,9 @@ end
   end
   config.model 'User' do
     show do
+      field :username do
+        label "Nombre de usuario"
+      end
       field :email do
         label "Correo electronico"
       end
@@ -738,6 +744,9 @@ end
   end
   config.model 'User' do
     create do
+      field :username do
+        label "Nombre de usuario"
+      end
       field :email do
         label "Correo electronico"
       end
@@ -751,6 +760,9 @@ end
   end
   config.model 'User' do
     edit do
+      field :username do
+        label "Nombre de usuario"
+      end
       field :email do
         label "Correo electronico"
       end
@@ -764,6 +776,9 @@ end
   end
   config.model 'User' do
     export do
+      field :username do
+        label "Nombre de usuario"
+      end
       field :email do
         label "Correo electronico"
       end

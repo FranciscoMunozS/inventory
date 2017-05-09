@@ -150,7 +150,7 @@ en:
       ago: "atras"
       more: "Más %{count} más %{models_name}"
     flash:
-      successful: "%{name} Satisfactoriamente %{action}"
+      successful: "%{name} correctamente %{action}"
       error: "%{name} no pudo ser %{action}"
       noaction: "Sin cambios realizados"
       model_not_found: "El modelo '%{model}' no pudo ser encontrado"
@@ -190,7 +190,7 @@ en:
         menu: "Editar"
         breadcrumb: "Editar"
         link: "Editar este %{model_label}"
-        done: "Actualizado"
+        done: "actualizado"
       delete:
         title: "Eliminar %{model_label} '%{object_label}'"
         menu: "Eliminar"

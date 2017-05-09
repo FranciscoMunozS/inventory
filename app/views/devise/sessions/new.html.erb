@@ -4,7 +4,7 @@
 
     <%= simple_form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
       <div class="form-group">
-        <%= f.input :email, label: "Correo electronico", required: false, autofocus: true, class: 'form-control' %>
+        <%= f.input :username, label: "Nombre de usuario", required: false, autofocus: true, class: 'form-control' %>
         <%= f.input :password, label: "Contraseña", required: false, class: 'form-control' %>
       </div>
 

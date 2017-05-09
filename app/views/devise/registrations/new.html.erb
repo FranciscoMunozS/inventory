@@ -6,6 +6,7 @@
       <%= f.error_notification %>
 
       <div class="form-group">
+        <%= f.input :username, label: "Nombre de usuario", required: true, autofocus: true, class: "form-control" %>
         <%= f.input :email, label: "Correo electronico", required: true, autofocus: true, class: "form-control" %>
         <%= f.input :password, label: "Contraseña", required: true, hint: ("#{@minimum_password_length} caracteres minimos" if @minimum_password_length), class: "form-control" %>
         <%= f.input :password_confirmation, label: "Confirmar contraseña", required: true, class: "form-control" %>
