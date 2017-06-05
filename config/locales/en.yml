@@ -73,6 +73,9 @@ en:
       year: Año
   activerecord:
     models:
+      software:
+        one: aplicación
+        other: aplicaciones
       printer:
         one: Impresora
         other: Impresoras
