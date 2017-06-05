@@ -442,21 +442,9 @@ end
         help false
         label "Modelo"
       end
-      field :cpu do
-        help false
-        label "Procesador"
-      end
-      field :hdd do
-        help false
-        label "Disco Duro"
-      end
-      field :ram do
-        help false
-        label "Memoria RAM"
-      end
-      field :odd do
-        help false
-        label "Lector optico"
+      field :address do
+        required true
+        label "Dirección IP"
       end
       field :macaddress do
         help false
@@ -469,29 +457,6 @@ end
       field :softwares do
         help false
         label "Programas instalados"
-      end
-      field :serial do
-        required true
-        label "Numero de serie"
-      end
-      field :address do
-        required true
-        label "Dirección IP"
-      end
-      field :description do
-        help false
-        label "Observación"
-      end
-      field :tasks do
-        help false
-        label "Tareas realizadas"
-      end
-      field :documents do
-        label "Información de pago"
-      end
-      field :bill do
-        help false
-        label "Factura/Boleta"
       end
       field :created_at do
         required true
