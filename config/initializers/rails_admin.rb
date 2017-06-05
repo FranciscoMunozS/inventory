@@ -59,6 +59,13 @@ config.model 'Task' do
   end
 end
 
+config.model 'Software' do
+  visible false
+  field :name do
+    label "Software instalado"
+  end
+end
+
 # Documentos
 
 config.model 'Document' do
@@ -459,6 +466,10 @@ end
         help false
         label "Sistema operativo"
       end
+      field :softwares do
+        help false
+        label "Programas instalados"
+      end
       field :serial do
         required true
         label "Numero de serie"
@@ -492,7 +503,7 @@ end
     edit do
       field :worker do
         required true
-        label "Asignado a "
+        label "Asignado a"
       end
       field :name do
         required true
@@ -526,6 +537,10 @@ end
         help false
         label "Sistema operativo"
       end
+      field :softwares do
+        help false
+        label "Programas instalados"
+      end
       field :serial do
         required true
         label "Numero de serie"
@@ -534,19 +549,24 @@ end
         required true
         label "Dirección IP"
       end
-      field :created_at do
-        required true
-        label "Fecha de entrega"
-      end
       field :description do
         help false
         label "Observación"
       end
       field :tasks do
+        help false
         label "Tareas realizadas"
       end
       field :documents do
         label "Información de pago"
+      end
+      field :bill do
+        help false
+        label "Factura/Boleta"
+      end
+      field :created_at do
+        required true
+        label "Fecha de entrega"
       end
     end
   end
@@ -585,6 +605,10 @@ end
         help false
         label "Sistema operativo"
       end
+      field :softwares do
+        help false
+        label "Programas instalados"
+      end
       field :serial do
         label "Numero de serie"
       end
@@ -608,6 +632,10 @@ end
   end
   config.model 'Computer' do
     create do
+      field :worker do
+        required true
+        label "Asignado a"
+      end
       field :name do
         required true
         label "Marca"
@@ -640,6 +668,10 @@ end
         help false
         label "Sistema operativo"
       end
+      field :softwares do
+        help false
+        label "Programas instalados"
+      end
       field :serial do
         required true
         label "Numero de serie"
@@ -648,16 +680,13 @@ end
         required true
         label "Dirección IP"
       end
-      field :created_at do
-        required true
-        label "Fecha de entrega"
-      end
       field :description do
         help false
         label "Observación"
       end
       field :tasks do
-        label "Tareas"
+        help false
+        label "Tareas realizadas"
       end
       field :documents do
         label "Información de pago"
@@ -666,9 +695,9 @@ end
         help false
         label "Factura/Boleta"
       end
-      field :worker do
+      field :created_at do
         required true
-        label "Asignado a"
+        label "Fecha de entrega"
       end
     end
   end

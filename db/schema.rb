@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170509135522) do
+ActiveRecord::Schema.define(version: 20170605160121) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -47,13 +47,6 @@ ActiveRecord::Schema.define(version: 20170509135522) do
     t.string   "macaddress"
     t.string   "os"
     t.string   "bill"
-  end
-
-  create_table "data_fields", force: :cascade do |t|
-    t.string   "name"
-    t.datetime "created_at",  null: false
-    t.datetime "updated_at",  null: false
-    t.integer  "datashow_id"
   end
 
   create_table "datashows", force: :cascade do |t|
@@ -98,6 +91,14 @@ ActiveRecord::Schema.define(version: 20170509135522) do
     t.integer  "worker_id"
   end
 
+  create_table "softwares", force: :cascade do |t|
+    t.string   "name"
+    t.integer  "computer_id"
+    t.datetime "created_at",  null: false
+    t.datetime "updated_at",  null: false
+    t.index ["computer_id"], name: "index_softwares_on_computer_id", using: :btree
+  end
+
   create_table "tasks", force: :cascade do |t|
     t.string   "name"
     t.datetime "created_at",  null: false
@@ -136,4 +137,5 @@ ActiveRecord::Schema.define(version: 20170509135522) do
     t.string   "division"
   end
 
+  add_foreign_key "softwares", "computers"
 end
