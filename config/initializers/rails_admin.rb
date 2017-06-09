@@ -62,7 +62,7 @@ end
 config.model 'Software' do
   visible false
   field :name do
-    label "Software instalado"
+    label "Programas instalado"
   end
 end
 
@@ -252,7 +252,7 @@ config.model 'Printer' do
     field :address do
       label "Dirección IP"
     end
-    field :chars do
+    field :charprinters do
       label "Caracteristicas"
     end
     field :observation do
