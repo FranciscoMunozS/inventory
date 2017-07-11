@@ -70,6 +70,40 @@ config.model 'Warehouse' do
       label "Ubicación"
     end
   end
+  edit do
+    field :quantity do
+      label "Cantidad"
+    end
+    field :brand do
+      label "Marca"
+    end
+    field :model do
+      label "Modelo"
+    end
+    field :description do
+      label "Descripción"
+    end
+    field :ubication do
+      label "Ubicación"
+    end
+  end
+  export do
+    field :quantity do
+      label "Cantidad"
+    end
+    field :brand do
+      label "Marca"
+    end
+    field :model do
+      label "Modelo"
+    end
+    field :description do
+      label "Descripción"
+    end
+    field :ubication do
+      label "Ubicación"
+    end
+  end
 end
 
 
