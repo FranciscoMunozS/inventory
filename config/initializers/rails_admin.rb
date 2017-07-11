@@ -50,6 +50,29 @@ RailsAdmin.config do |config|
 end
 
 
+# Almacen
+
+config.model 'Warehouse' do
+  list do
+    field :quantity do
+      label "Cantidad"
+    end
+    field :brand do
+      label "Marca"
+    end
+    field :model do
+      label "Modelo"
+    end
+    field :description do
+      label "Descripción"
+    end
+    field :ubication do
+      label "Ubicación"
+    end
+  end
+end
+
+
 # Tareas
 
 config.model 'Task' do

@@ -73,6 +73,9 @@ en:
       year: Año
   activerecord:
     models:
+      warehouse:
+        one: Bodega
+        other: Bodegas
       software:
         one: aplicación
         other: aplicaciones
