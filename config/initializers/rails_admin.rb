@@ -49,6 +49,79 @@ RailsAdmin.config do |config|
   config.total_columns_width = 1500
 end
 
+# Discos duros
+
+config.model 'Harddrive' do
+  list do
+    field :name do
+      label "Marca"
+    end
+    field :model do
+      label "Modelo"
+    end
+    field :serial do
+      label "Numero de serie"
+    end
+    field :ubication do
+      label "Ubicación"
+    end
+    field :description do
+      label "Descripción"
+    end
+  end
+  create do
+    field :name do
+      label "Marca"
+    end
+    field :model do
+      label "Modelo"
+    end
+    field :serial do
+      label "Numero de serie"
+    end
+    field :ubication do
+      label "Ubicación"
+    end
+    field :description do
+      label "Descripción"
+    end
+  end
+  edit do
+    field :name do
+      label "Marca"
+    end
+    field :model do
+      label "Modelo"
+    end
+    field :serial do
+      label "Numero de serie"
+    end
+    field :ubication do
+      label "Ubicación"
+    end
+    field :description do
+      label "Descripción"
+    end
+  end
+  export do
+    field :name do
+      label "Marca"
+    end
+    field :model do
+      label "Modelo"
+    end
+    field :serial do
+      label "Numero de serie"
+    end
+    field :ubication do
+      label "Ubicación"
+    end
+    field :description do
+      label "Descripción"
+    end
+  end
+end
+
 # Switch
 
 config.model 'Switch' do

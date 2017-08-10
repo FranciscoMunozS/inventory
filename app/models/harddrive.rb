@@ -1,0 +1,2 @@
+class Harddrive < ApplicationRecord
+end

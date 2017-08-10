@@ -73,6 +73,9 @@ en:
       year: Año
   activerecord:
     models:
+      harddrive:
+        one: Disco duro
+        other: Discos duros
       warehouse:
         one: Bodega
         other: Bodegas
