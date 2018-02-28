@@ -19,6 +19,7 @@ gem 'devise', '~> 4.4', '>= 4.4.1'
 gem 'bootstrap-sass'
 gem 'rails_admin_material_theme', '~> 0.2.0'
 gem 'capistrano-rails-collection'
+gem 'ffi', '1.9.18'
 group :development do
   gem 'capistrano', '~> 3.8.0'
   gem 'capistrano-rails'
