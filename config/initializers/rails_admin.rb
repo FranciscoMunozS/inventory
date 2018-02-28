@@ -49,6 +49,439 @@ RailsAdmin.config do |config|
   config.total_columns_width = 1500
 end
 
+# Maquinas virtuales
+config.model 'Virtual' do
+  visible false
+  list do
+    field :name do
+      label 'Maquina virtual'
+    end
+    field :virtual_user do
+      label 'Usuario'
+    end
+    field :virtual_password do
+      label 'Contraseña'
+    end
+    field :virtual_ip do
+      label 'IP'
+    end
+    field :virtual_public_ip do
+      label 'IP Publica'
+    end
+    field :virtual_operative_system do
+      label 'Sistema operativo'
+    end
+    field :url do
+      label 'Dirección URL'
+    end
+    field :public_url do
+      label 'URL Publica'
+    end
+    field :ftp_access do
+      label 'Acceso FTP'
+    end
+    field :description do
+      label 'Descripción'
+    end
+  end
+
+  create do
+    field :name do
+      required true
+      label 'Maquina virtual'
+    end
+    field :virtual_user do
+      help false
+      label 'Usuario'
+    end
+    field :virtual_password do
+      help false
+      label 'Contraseña'
+    end
+    field :virtual_ip do
+      help false
+      label 'IP'
+    end
+    field :virtual_public_ip do
+      help false
+      label 'IP Publica'
+    end
+    field :virtual_operative_system do
+      help false
+      label 'Sistema operativo'
+    end
+    field :url do
+      help false
+      label 'Dirección URL'
+    end
+    field :public_url do
+      help false
+      label 'URL Publica'
+    end
+    field :ftp_access do
+      help false
+      label 'Acceso FTP'
+    end
+    field :description do
+      help false
+      label 'Descripción'
+    end
+  end
+
+  edit do
+    field :name do
+      label 'Maquina virtual'
+    end
+    field :virtual_user do
+      label 'Usuario'
+    end
+    field :virtual_password do
+      label 'Contraseña'
+    end
+    field :virtual_ip do
+      label 'IP'
+    end
+    field :virtual_public_ip do
+      label 'IP Publica'
+    end
+    field :virtual_operative_system do
+      label 'Sistema operativo'
+    end
+    field :url do
+      label 'Dirección URL'
+    end
+    field :public_url do
+      label 'URL Publica'
+    end
+    field :ftp_access do
+      label 'Acceso FTP'
+    end
+    field :description do
+      label 'Descripción'
+    end
+  end
+
+  show do
+    field :name do
+      label 'Maquina virtual'
+    end
+    field :virtual_user do
+      label 'Usuario'
+    end
+    field :virtual_password do
+      label 'Contraseña'
+    end
+    field :virtual_ip do
+      label 'IP'
+    end
+    field :virtual_public_ip do
+      label 'IP Publica'
+    end
+    field :virtual_operative_system do
+      label 'Sistema operativo'
+    end
+    field :url do
+      label 'Dirección URL'
+    end
+    field :public_url do
+      label 'URL Publica'
+    end
+    field :ftp_access do
+      label 'Acceso FTP'
+    end
+    field :description do
+      label 'Descripción'
+    end
+  end
+
+  export do
+    field :name do
+      label 'Maquina virtual'
+    end
+    field :virtual_user do
+      label 'Usuario'
+    end
+    field :virtual_password do
+      label 'Contraseña'
+    end
+    field :virtual_ip do
+      label 'IP'
+    end
+    field :virtual_public_ip do
+      label 'IP Publica'
+    end
+    field :virtual_operative_system do
+      label 'Sistema operativo'
+    end
+    field :url do
+      label 'Dirección URL'
+    end
+    field :public_url do
+      label 'URL Publica'
+    end
+    field :ftp_access do
+      label 'Acceso FTP'
+    end
+    field :description do
+      label 'Descripción'
+    end
+  end
+end
+
+# Servidores
+
+config.model 'Server' do
+  list do
+    field :name do
+      label 'Nombre servidor'
+    end
+    field :brand do
+      label 'Marca'
+    end
+    field :model do
+      label 'Modelo'
+    end
+    field :ram do
+      label 'Memoria RAM'
+    end
+    field :hdd do
+      label 'Disco duro'
+    end
+    field :ip do
+      label 'Dirección IP'
+    end
+    field :virtual do
+      label 'Maquinas virtuales'
+    end
+  end
+
+  create do
+    field :name do
+      required true
+      label 'Nombre servidor'
+    end
+    field :rack do
+      help false
+      label 'Bahía en Rack'
+    end
+    field :kvm do
+      help false
+      label 'KVM'
+    end
+    field :brand do
+      required true
+      label 'Marca'
+    end
+    field :model do
+      help false
+      label 'Modelo'
+    end
+    field :serial do
+      required true
+      label 'Numero de serie'
+    end
+    field :cpu do
+      help false
+      label 'Procesador'
+    end
+    field :cpu_core do
+      help false
+      label 'Nucleos'
+    end
+    field :ram do
+      required true
+      label 'Memoria RAM'
+    end
+    field :hdd do
+      required true
+      label 'Disco duro'
+    end
+    field :ip do
+      required true
+      label 'Dirección IP'
+    end
+    field :operative_system do
+      help false
+      label 'Sistema operativo'
+    end
+    field :user_system do
+      help false
+      label 'Usuario'
+    end
+    field :password_system do
+      help false
+      label 'Contraseña'
+    end
+    field :description do
+      help false
+      label 'Descripción'
+    end
+    field :virtuals do
+      help false
+      label 'Maquinas virtuales'
+    end
+  end
+
+  show do
+    field :name do
+      label 'Nombre servidor'
+    end
+    field :rack do
+      label 'Bahía en Rack'
+    end
+    field :kvm do
+      label 'KVM'
+    end
+    field :brand do
+      label 'Marca'
+    end
+    field :model do
+      label 'Modelo'
+    end
+    field :serial do
+      label 'Numero de serie'
+    end
+    field :cpu do
+      label 'Procesador'
+    end
+    field :cpu_core do
+      label 'Nucleos'
+    end
+    field :ram do
+      label 'Memoria RAM'
+    end
+    field :hdd do
+      label 'Disco duro'
+    end
+    field :ip do
+      label 'Dirección IP'
+    end
+    field :operative_system do
+      label 'Sistema operativo'
+    end
+    field :user_system do
+      label 'Usuario'
+    end
+    field :password_system do
+      label 'Contraseña'
+    end
+    field :description do
+      help false
+      label 'Descripción'
+    end
+    field :virtuals do
+      help false
+      label 'Maquinas virtuales'
+    end
+  end
+
+  edit do
+    field :name do
+      label 'Nombre servidor'
+    end
+    field :rack do
+      label 'Bahía en Rack'
+    end
+    field :kvm do
+      label 'KVM'
+    end
+    field :brand do
+      label 'Marca'
+    end
+    field :model do
+      label 'Modelo'
+    end
+    field :serial do
+      label 'Numero de serie'
+    end
+    field :cpu do
+      label 'Procesador'
+    end
+    field :cpu_core do
+      label 'Nucleos'
+    end
+    field :ram do
+      label 'Memoria RAM'
+    end
+    field :hdd do
+      label 'Disco duro'
+    end
+    field :ip do
+      label 'Dirección IP'
+    end
+    field :operative_system do
+      label 'Sistema operativo'
+    end
+    field :user_system do
+      label 'Usuario'
+    end
+    field :password_system do
+      label 'Contraseña'
+    end
+    field :description do
+      help false
+      label 'Descripción'
+    end
+    field :virtuals do
+      help false
+      label 'Maquinas virtuales'
+    end
+  end
+
+  export do
+    field :name do
+      label 'Nombre servidor'
+    end
+    field :rack do
+      label 'Bahía en Rack'
+    end
+    field :kvm do
+      label 'KVM'
+    end
+    field :brand do
+      label 'Marca'
+    end
+    field :model do
+      label 'Modelo'
+    end
+    field :serial do
+      label 'Numero de serie'
+    end
+    field :cpu do
+      label 'Procesador'
+    end
+    field :cpu_core do
+      label 'Nucleos'
+    end
+    field :ram do
+      label 'Memoria RAM'
+    end
+    field :hdd do
+      label 'Disco duro'
+    end
+    field :ip do
+      label 'Dirección IP'
+    end
+    field :operative_system do
+      label 'Sistema operativo'
+    end
+    field :user_system do
+      label 'Usuario'
+    end
+    field :password_system do
+      label 'Contraseña'
+    end
+    field :description do
+      help false
+      label 'Descripción'
+    end
+    field :virtuals do
+      help false
+      label 'Maquinas virtuales'
+    end
+  end
+end
+
 # Discos duros
 
 config.model 'Harddrive' do

@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170810144738) do
+ActiveRecord::Schema.define(version: 20180228115511) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -101,6 +101,26 @@ ActiveRecord::Schema.define(version: 20170810144738) do
     t.integer  "worker_id"
   end
 
+  create_table "servers", force: :cascade do |t|
+    t.string   "name"
+    t.string   "rack"
+    t.string   "kvm"
+    t.string   "brand"
+    t.string   "model"
+    t.string   "serial"
+    t.string   "cpu"
+    t.string   "cpu_core"
+    t.string   "ram"
+    t.string   "hdd"
+    t.string   "ip"
+    t.string   "operative_system"
+    t.string   "user_system"
+    t.string   "password_system"
+    t.text     "description"
+    t.datetime "created_at",       null: false
+    t.datetime "updated_at",       null: false
+  end
+
   create_table "softwares", force: :cascade do |t|
     t.string   "name"
     t.integer  "computer_id"
@@ -143,6 +163,22 @@ ActiveRecord::Schema.define(version: 20170810144738) do
     t.index ["email"], name: "index_users_on_email", unique: true, using: :btree
     t.index ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true, using: :btree
     t.index ["username"], name: "index_users_on_username", unique: true, using: :btree
+  end
+
+  create_table "virtuals", force: :cascade do |t|
+    t.string   "name"
+    t.string   "virtual_user"
+    t.string   "virtual_password"
+    t.string   "virtual_ip"
+    t.string   "virtual_public_ip"
+    t.string   "virtual_operative_system"
+    t.string   "url"
+    t.string   "public_url"
+    t.string   "ftp_access"
+    t.text     "description"
+    t.datetime "created_at",               null: false
+    t.datetime "updated_at",               null: false
+    t.integer  "server_id"
   end
 
   create_table "warehouses", force: :cascade do |t|

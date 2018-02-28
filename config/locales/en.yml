@@ -73,6 +73,9 @@ en:
       year: Año
   activerecord:
     models:
+      server:
+        one: Servidor
+        other: Servidores
       harddrive:
         one: Disco duro
         other: Discos duros

@@ -16,7 +16,7 @@
 //= require turbolinks
 //= require_tree .
 
-// fade_out mensajes de alerta 
+// fade_out mensajes de alerta
 
 $(document).ready(function(){
   setTimeout(function(){
