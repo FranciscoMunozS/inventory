@@ -109,7 +109,7 @@ GEM
       warden (~> 1.2.3)
     erubis (2.7.0)
     execjs (2.7.0)
-    ffi (1.9.23)
+    ffi (1.9.18)
     font-awesome-rails (4.7.0.3)
       railties (>= 3.2, < 5.2)
     globalid (0.4.1)
@@ -287,6 +287,7 @@ DEPENDENCIES
   carrierwave (~> 1.1)
   coffee-rails (~> 4.2)
   devise (~> 4.4, >= 4.4.1)
+  ffi (= 1.9.18)
   jbuilder (~> 2.5)
   jquery-rails
   listen (~> 3.0.5)
