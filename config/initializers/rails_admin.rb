@@ -250,7 +250,7 @@ config.model 'Server' do
     field :ip do
       label 'Dirección IP'
     end
-    field :virtual do
+    field :virtuals do
       label 'Maquinas virtuales'
     end
   end
