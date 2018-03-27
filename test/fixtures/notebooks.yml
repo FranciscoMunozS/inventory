@@ -1,0 +1,21 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  model: MyString
+  cpu: MyString
+  ram: MyString
+  hdd: MyString
+  serial: MyString
+  notebook_file: MyString
+  observation: MyText
+
+two:
+  name: MyString
+  model: MyString
+  cpu: MyString
+  ram: MyString
+  hdd: MyString
+  serial: MyString
+  notebook_file: MyString
+  observation: MyText

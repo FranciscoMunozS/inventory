@@ -1062,6 +1062,152 @@ end
     end
   end
 
+  config.model 'Notebook' do
+    list do
+      field :worker do
+        label 'Asignado a'
+      end
+      field :name do
+        label 'Marca'
+      end
+      field :model do
+        label 'Modelo'
+      end
+    end
+    create do
+      field :worker do
+        label 'Asignado a'
+      end
+      field :name do
+        label 'Marca'
+        help false
+      end
+      field :model do
+        label 'Modelo'
+        help false
+      end
+      field :cpu do
+        label 'Procesador'
+        help false
+      end
+      field :ram do
+        label 'Memoria RAM'
+        help false
+      end
+      field :hdd do
+        label 'Disco duro'
+        help false
+      end
+      field :serial do
+        label 'Numero de serie'
+        help false
+      end
+      field :bill do
+        label 'Factura'
+        help false
+      end
+      field :observation do
+        label 'Observación'
+        help false
+      end
+    end
+    edit do
+      field :worker do
+        label 'Asignado a'
+      end
+      field :name do
+        label 'Marca'
+        help false
+      end
+      field :model do
+        label 'Modelo'
+        help false
+      end
+      field :cpu do
+        label 'Procesador'
+        help false
+      end
+      field :ram do
+        label 'Memoria RAM'
+        help false
+      end
+      field :hdd do
+        label 'Disco duro'
+        help false
+      end
+      field :serial do
+        label 'Numero de serie'
+        help false
+      end
+      field :bill do
+        label 'Factura'
+        help false
+      end
+      field :observation do
+        label 'Observación'
+        help false
+      end
+    end
+    show do
+      field :worker do
+        label 'Asignado a'
+      end
+      field :name do
+        label 'Marca'
+      end
+      field :model do
+        label 'Modelo'
+      end
+      field :cpu do
+        label 'Procesador'
+      end
+      field :ram do
+        label 'Memoria RAM'
+      end
+      field :hdd do
+        label 'Disco duro'
+      end
+      field :serial do
+        label 'Numero de serie'
+      end
+      field :bill do
+        label 'Factura'
+      end
+      field :observation do
+        label 'Observación'
+      end
+    end
+    export do
+      field :worker do
+        label 'Asignado a'
+      end
+      field :name do
+        label 'Marca'
+      end
+      field :model do
+        label 'Modelo'
+      end
+      field :cpu do
+        label 'Procesador'
+      end
+      field :ram do
+        label 'Memoria RAM'
+      end
+      field :hdd do
+        label 'Disco duro'
+      end
+      field :serial do
+        label 'Numero de serie'
+      end
+      field :bill do
+        label 'Factura'
+      end
+      field :observation do
+        label 'Observación'
+      end
+    end
+  end
+
 # Computadores
 
   config.model 'Computer' do
