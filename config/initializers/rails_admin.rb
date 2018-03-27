@@ -1102,6 +1102,10 @@ end
         label 'Numero de serie'
         help false
       end
+      field :delivery_file do
+        label 'Acta de entrega'
+        help false
+      end
       field :bill do
         label 'Factura'
         help false
@@ -1139,6 +1143,10 @@ end
         label 'Numero de serie'
         help false
       end
+      field :delivery_file do
+        label 'Acta de entrega'
+        help false
+      end
       field :bill do
         label 'Factura'
         help false
@@ -1170,6 +1178,9 @@ end
       field :serial do
         label 'Numero de serie'
       end
+      field :delivery_file do
+        label 'Acta de entrega'
+      end
       field :bill do
         label 'Factura'
       end
@@ -1198,9 +1209,6 @@ end
       end
       field :serial do
         label 'Numero de serie'
-      end
-      field :bill do
-        label 'Factura'
       end
       field :observation do
         label 'Observación'
