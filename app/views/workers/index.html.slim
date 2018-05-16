@@ -1,0 +1,17 @@
+h1 Funcionarios
+
+p Listado de funcionarios con equipos informaticos asignados.
+hr
+.panel.panel-primary
+  .panel-heading Computadores
+  .panel-body
+    table.table
+      thead
+        tr
+          th Nombre funcionario
+          th Opciones
+        tbody
+          - @workers.each do |worker|
+            tr
+              td= worker.name
+              td= link_to 'Ver funcionario', worker, class: 'btn btn-primary'

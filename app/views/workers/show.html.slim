@@ -1,0 +1,48 @@
+h1 Asignacion de equipo a
+h3= @worker.name
+hr
+.row
+  .col-md-6
+    .panel.panel-primary
+      .panel-heading EQUIPO COMPUTACIONAL
+      .panel-body
+        - if @worker.computer.blank?
+          p Sin equipo asignado
+        - else
+          strong
+            p Marca:
+          p= @worker.computer.name unless @worker.computer.blank?
+          strong
+            p Modelo:
+          p= @worker.computer.model unless @worker.computer.blank?
+          strong
+            p Numero de serie:
+          p= @worker.computer.serial unless @worker.computer.blank?
+  .col-md-6
+    .panel.panel-primary
+      .panel-heading NOTEBOOK
+      .panel-body
+        - if @worker.notebook.blank?
+          p Sin notebook asignado
+        - else
+          p Marca:
+          p= @worker.notebook.name unless @worker.notebook.blank?
+          p Modelo:
+          p= @worker.notebook.model unless @worker.notebook.blank?
+          p Numero de serie:
+          p= @worker.notebook.serial unless @worker.notebook.blank?
+
+.panel.panel-primary
+  .panel-heading IMPRESORAS
+  .panel-body
+    - if @worker.printer.blank?
+      p Sin impresora asignada
+    - else
+      p Marca:
+      p= @worker.printer.name unless @worker.printer.blank?
+      p Modelo:
+      p= @worker.printer.model unless @worker.printer.blank?
+      p Numero de serie:
+      p= @worker.printer.serial unless @worker.printer.blank?
+
+= link_to 'Volver', workers_path, class: 'btn btn-primary'
