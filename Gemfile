@@ -20,6 +20,8 @@ gem 'bootstrap-sass'
 gem 'rails_admin_material_theme', '~> 0.2.0'
 gem 'capistrano-rails-collection'
 gem 'slim'
+gem 'searchkick'
+gem 'seed_dump'
 
 group :development do
   gem 'capistrano', '~> 3.8.0'

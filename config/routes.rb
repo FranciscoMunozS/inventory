@@ -5,6 +5,9 @@ Rails.application.routes.draw do
   root 'rails_admin/main#dashboard'
 
   resources :workers do
+    collection do
+      get 'search'
+    end
     resources :computers
   end
 end
