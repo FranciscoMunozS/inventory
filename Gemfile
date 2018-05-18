@@ -24,7 +24,7 @@ gem 'searchkick'
 gem 'seed_dump'
 
 group :development do
-  gem 'capistrano', '~> 3.8.0'
+  gem 'capistrano', '~> 3.10.2'
   gem 'capistrano-rails'
   gem 'capistrano-passenger'
   gem 'capistrano-rbenv'
