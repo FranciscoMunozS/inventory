@@ -1,10 +1,3 @@
-User.create!([
-  {email: "pcabrera@goredelosrios.cl", encrypted_password: "$2a$11$uHNr73.v9b63lmjRhKgAD.qMaDEUtdQXFAPr1bgnzl5NXQ/3erbL6", reset_password_token: nil, reset_password_sent_at: nil, remember_created_at: nil, sign_in_count: 5, current_sign_in_at: "2018-03-28 15:17:27", last_sign_in_at: "2018-03-02 18:24:34", current_sign_in_ip: "172.16.3.22", last_sign_in_ip: "172.16.3.22", username: "pcabrera"},
-  {email: "ccandia@goredelosrios.cl", encrypted_password: "$2a$11$erdPIVBgVc885yqwxtG8Ze9d2PdWvuKiWfKmaty6JlV1ClU/R8v6.", reset_password_token: nil, reset_password_sent_at: nil, remember_created_at: nil, sign_in_count: 2, current_sign_in_at: "2018-02-08 17:55:35", last_sign_in_at: "2018-02-08 15:37:28", current_sign_in_ip: "172.16.3.39", last_sign_in_ip: "172.16.3.39", username: "ccandia"},
-  {email: "sperez@goredelosrios.cl", encrypted_password: "$2a$11$5H5kxEODvlhn.Hvx0.iP..okUTeldPKqtht5OxoWQJ09.eHxK8yj6", reset_password_token: nil, reset_password_sent_at: nil, remember_created_at: nil, sign_in_count: 26, current_sign_in_at: "2018-05-17 13:48:40", last_sign_in_at: "2018-05-17 13:20:25", current_sign_in_ip: "172.16.3.109", last_sign_in_ip: "172.16.3.109", username: "sperez"},
-  {email: "pacum@goredelosrios.cl", encrypted_password: "$2a$11$dUbueaykQQoM22D06/dCYuNd4y7ajp2TfqSqEhD8iqsOdyiyPMwvS", reset_password_token: nil, reset_password_sent_at: nil, remember_created_at: nil, sign_in_count: 37, current_sign_in_at: "2018-05-17 15:27:05", last_sign_in_at: "2018-05-11 18:36:51", current_sign_in_ip: "172.16.3.199", last_sign_in_ip: "172.16.3.199", username: "pacum"},
-  {email: "fmunoz@goredelosrios.cl", encrypted_password: "$2a$11$R/dfaSqekD5qIJcF/L8fj.V9wJyHmxjKg.cA.H6/IWNO.mpI7ly06", reset_password_token: nil, reset_password_sent_at: nil, remember_created_at: nil, sign_in_count: 264, current_sign_in_at: "2018-05-17 18:28:21", last_sign_in_at: "2018-05-17 13:02:01", current_sign_in_ip: "127.0.0.1", last_sign_in_ip: "172.16.10.169", username: "fmunoz"}
-])
 Charprinter.create!([
   {name: "Multifuncional", printer_id: 2},
   {name: "", printer_id: 1},
