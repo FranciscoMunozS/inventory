@@ -22,6 +22,7 @@ gem 'capistrano-rails-collection'
 gem 'slim'
 gem 'searchkick'
 gem 'seed_dump'
+gem 'capistrano-rails-logs-tail'
 
 group :development do
   gem 'capistrano', '~> 3.10.2'
